@@ -49,6 +49,6 @@ if __name__ == "__main__":
     for pyfile in glob.glob("./src/fparser/two/Fortran2003/nodes/*.py"):
         with open(pyfile, "r") as f:
             content = f.read()
-        new_content = content + dependency
+        new_content = dependency + content
         with open(pyfile, "w") as f:
             f.write(new_content)
