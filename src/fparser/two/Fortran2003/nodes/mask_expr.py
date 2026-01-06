@@ -4,3 +4,7 @@ class Mask_Expr(Base):  # R748
     """
 
     subclass_names = ["Logical_Expr"]
+
+
+class Scalar_Mask_Expr(Base):
+    subclass_names = ["Mask_Expr"]

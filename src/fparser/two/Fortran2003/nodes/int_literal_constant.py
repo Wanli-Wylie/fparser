@@ -10,3 +10,7 @@ class Int_Literal_Constant(NumberBase):  # R406
     @staticmethod
     def match(string):
         return NumberBase.match(pattern.abs_int_literal_constant_named, string)
+
+
+class Scalar_Int_Literal_Constant(Base):
+    subclass_names = ["Int_Literal_Constant"]

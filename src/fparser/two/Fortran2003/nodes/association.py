@@ -9,3 +9,15 @@ class Association(BinaryOpBase):  # R818
     @staticmethod
     def match(string):
         return BinaryOpBase.match(Associate_Name, "=>", Selector, string)
+
+
+class Association_List(SequenceBase):
+    subclass_names = ["Association"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Association, string)
+
+    def __iter__(self):
+        return iter(self.items)

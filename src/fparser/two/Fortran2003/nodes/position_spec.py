@@ -27,3 +27,15 @@ class Position_Spec(KeywordValueBase):  # R926
             if obj is not None:
                 return obj
         return "UNIT", File_Unit_Number(string)
+
+
+class Position_Spec_List(SequenceBase):
+    subclass_names = ["Position_Spec"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Position_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)

@@ -6,3 +6,7 @@ class Int_Constant(Base):  # R308
     """
 
     subclass_names = ["Constant"]
+
+
+class Scalar_Int_Constant(Base):
+    subclass_names = ["Int_Constant"]

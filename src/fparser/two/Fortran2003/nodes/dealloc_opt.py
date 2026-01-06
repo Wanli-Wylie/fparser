@@ -20,3 +20,15 @@ class Dealloc_Opt(KeywordValueBase):  # R636
             if obj is not None:
                 return obj
         return None
+
+
+class Dealloc_Opt_List(SequenceBase):
+    subclass_names = ["Dealloc_Opt"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Dealloc_Opt, string)
+
+    def __iter__(self):
+        return iter(self.items)

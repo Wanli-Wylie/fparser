@@ -14,3 +14,17 @@ class Object_Name_Deferred_Shape_Spec_List_Item(CallBase):
         return CallBase.match(
             Object_Name, Deferred_Shape_Spec_List, string, require_rhs=True
         )
+
+
+class Object_Name_Deferred_Shape_Spec_List_Item_List(SequenceBase):
+    subclass_names = ["Object_Name_Deferred_Shape_Spec_List_Item"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(
+            r",", Object_Name_Deferred_Shape_Spec_List_Item, string
+        )
+
+    def __iter__(self):
+        return iter(self.items)

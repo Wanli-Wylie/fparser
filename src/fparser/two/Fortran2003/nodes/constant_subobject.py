@@ -7,3 +7,7 @@ class Constant_Subobject(Base):  # R534
     """
 
     subclass_names = ["Designator"]
+
+
+class Scalar_Constant_Subobject(Base):
+    subclass_names = ["Constant_Subobject"]

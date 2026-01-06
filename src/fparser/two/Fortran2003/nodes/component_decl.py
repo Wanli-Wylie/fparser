@@ -59,3 +59,15 @@ class Component_Decl(Base):  # R442
         if self.items[3] is not None:
             s += " " + str(self.items[3])
         return s
+
+
+class Component_Decl_List(SequenceBase):
+    subclass_names = ["Component_Decl"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Component_Decl, string)
+
+    def __iter__(self):
+        return iter(self.items)

@@ -15,3 +15,15 @@ class Common_Block_Object(CallBase):  # R558
         return CallBase.match(
             Variable_Name, Explicit_Shape_Spec_List, string, require_rhs=True
         )
+
+
+class Common_Block_Object_List(SequenceBase):
+    subclass_names = ["Common_Block_Object"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Common_Block_Object, string)
+
+    def __iter__(self):
+        return iter(self.items)

@@ -35,3 +35,15 @@ class Close_Spec(KeywordValueBase):  # R909
             if obj is not None:
                 return obj
         return "UNIT", File_Unit_Number(string)
+
+
+class Close_Spec_List(SequenceBase):
+    subclass_names = ["Close_Spec"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Close_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)

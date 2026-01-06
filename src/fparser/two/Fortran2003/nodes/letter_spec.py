@@ -30,3 +30,15 @@ class Letter_Spec(Base):  # R551
         if self.items[1] is None:
             return str(self.items[0])
         return "%s - %s" % tuple(self.items)
+
+
+class Letter_Spec_List(SequenceBase):
+    subclass_names = ["Letter_Spec"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Letter_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)

@@ -45,3 +45,7 @@ class Logical_Expr(Base):  # pylint: disable=invalid-name
         if isinstance(result, excluded):
             return None
         return result
+
+
+class Scalar_Logical_Expr(Base):
+    subclass_names = ["Logical_Expr"]

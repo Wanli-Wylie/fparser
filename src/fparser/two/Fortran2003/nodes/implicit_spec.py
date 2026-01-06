@@ -21,3 +21,15 @@ class Implicit_Spec(CallBase):  # R550
         if not s1 or not s2:
             return
         return Declaration_Type_Spec(s1), Letter_Spec_List(s2)
+
+
+class Implicit_Spec_List(SequenceBase):
+    subclass_names = ["Implicit_Spec"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Implicit_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)

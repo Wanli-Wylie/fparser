@@ -32,3 +32,15 @@ class Attr_Spec(STRINGBase):  # R503
     @staticmethod
     def match(string):
         return STRINGBase.match(pattern.abs_attr_spec, string)
+
+
+class Attr_Spec_List(SequenceBase):
+    subclass_names = ["Attr_Spec"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Attr_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)

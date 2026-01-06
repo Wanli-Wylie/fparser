@@ -14,3 +14,15 @@ class Saved_Entity(BracketBase):  # R544
     @staticmethod
     def match(string):
         return BracketBase.match("//", Common_Block_Name, string)
+
+
+class Saved_Entity_List(SequenceBase):
+    subclass_names = ["Saved_Entity"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Saved_Entity, string)
+
+    def __iter__(self):
+        return iter(self.items)

@@ -39,3 +39,7 @@ class Int_Expr(Base):  # pylint: disable=invalid-name
         if isinstance(result, excluded):
             return None
         return result
+
+
+class Scalar_Int_Expr(Base):
+    subclass_names = ["Int_Expr"]
