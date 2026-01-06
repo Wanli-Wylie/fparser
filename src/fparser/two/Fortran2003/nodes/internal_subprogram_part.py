@@ -1,0 +1,16 @@
+class Internal_Subprogram_Part(BlockBase):  # R210
+    """
+    ::
+
+        <internal-subprogram-part> = <contains-stmt>
+                                       <internal-subprogram>
+                                       [ <internal-subprogram> ]...
+
+    """
+
+    subclass_names = []
+    use_names = ["Contains_Stmt", "Internal_Subprogram"]
+
+    @staticmethod
+    def match(reader):
+        return BlockBase.match(Contains_Stmt, [Internal_Subprogram], None, reader)
