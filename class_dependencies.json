@@ -1,0 +1,992 @@
+{
+    "Where_Stmt": [
+        "Mask_Expr",
+        "Where_Assignment_Stmt"
+    ],
+    "Declaration_Construct": [],
+    "Block_Data": [
+        "Block_Data_Stmt",
+        "End_Block_Data_Stmt",
+        "Specification_Part"
+    ],
+    "Bind_Entity": [],
+    "Io_Implied_Do": [
+        "Io_Implied_Do_Control"
+    ],
+    "Block": [
+        "Execution_Part_Construct"
+    ],
+    "Type_Param_Value": [],
+    "Type_Declaration_Stmt": [
+        "Declaration_Type_Spec",
+        "Entity_Decl",
+        "Intrinsic_Type_Spec"
+    ],
+    "Sequence_Stmt": [],
+    "D": [],
+    "Proc_Decl": [
+        "Null_Init"
+    ],
+    "Pointer_Assignment_Stmt": [
+        "Data_Pointer_Object",
+        "Data_Target",
+        "Proc_Pointer_Object",
+        "Proc_Target"
+    ],
+    "Select_Case_Stmt": [
+        "Case_Expr"
+    ],
+    "Flush_Stmt": [
+        "File_Unit_Number"
+    ],
+    "Upper_Bound_Expr": [],
+    "Named_Constant_Def": [
+        "Initialization_Expr",
+        "Named_Constant"
+    ],
+    "Named_Constant": [],
+    "Initialization": [
+        "Initialization_Expr",
+        "Null_Init"
+    ],
+    "Masked_Elsewhere_Stmt": [
+        "Elsewhere_Stmt",
+        "Mask_Expr"
+    ],
+    "Pointer_Decl": [
+        "Object_Name"
+    ],
+    "Private_Components_Stmt": [],
+    "V": [],
+    "Allocation": [
+        "Allocate_Object"
+    ],
+    "Vector_Subscript": [],
+    "Proc_Binding_Stmt": [],
+    "Data_Pointer_Object": [
+        "Variable"
+    ],
+    "Bounds_Remapping": [
+        "Lower_Bound_Expr",
+        "Upper_Bound_Expr"
+    ],
+    "Write_Stmt": [
+        "Io_Control_Spec_List"
+    ],
+    "Position_Spec": [
+        "File_Unit_Number",
+        "Iomsg_Variable",
+        "Label"
+    ],
+    "Target_Entity_Decl": [
+        "Entity_Decl"
+    ],
+    "Initialization_Expr": [],
+    "Prefix_Spec": [],
+    "N": [],
+    "Io_Control_Spec_List": [
+        "Format",
+        "Io_Control_Spec",
+        "Io_Unit"
+    ],
+    "Proc_Component_Attr_Spec": [],
+    "Intrinsic_Type_Spec": [
+        "Char_Selector",
+        "Kind_Selector"
+    ],
+    "Component_Initialization": [
+        "Initialization_Expr",
+        "Null_Init"
+    ],
+    "Stop_Code": [
+        "Level_3_Expr"
+    ],
+    "Array_Spec": [],
+    "Actual_Arg": [],
+    "Computed_Goto_Stmt": [],
+    "Label_Do_Stmt": [
+        "Label",
+        "Loop_Control"
+    ],
+    "Implicit_Stmt": [],
+    "End_Do_Stmt": [],
+    "Interface_Name": [],
+    "Internal_Subprogram": [],
+    "Dimension_Stmt": [
+        "Array_Spec"
+    ],
+    "Enum_Def_Stmt": [],
+    "Int_Initialization_Expr": [],
+    "Type_Name": [
+        "Name"
+    ],
+    "Nonblock_Do_Construct": [],
+    "End_Forall_Stmt": [],
+    "Parenthesis": [
+        "Expr"
+    ],
+    "Implicit_Part": [
+        "Implicit_Part_Stmt"
+    ],
+    "Type_Param_Attr_Spec": [],
+    "Constant": [],
+    "Interface_Specification": [],
+    "Close_Stmt": [],
+    "Only": [],
+    "Upper_Bound": [],
+    "Enum_Def": [
+        "End_Enum_Stmt",
+        "Enum_Def_Stmt",
+        "Enumerator_Def_Stmt"
+    ],
+    "Endfile_Stmt": [
+        "File_Unit_Number"
+    ],
+    "Module": [
+        "End_Module_Stmt",
+        "Module_Stmt",
+        "Module_Subprogram_Part",
+        "Specification_Part"
+    ],
+    "End_Subroutine_Stmt": [],
+    "Subscript": [],
+    "Logical_Initialization_Expr": [],
+    "Expr": [
+        "Level_5_Expr"
+    ],
+    "Do_Body": [
+        "Execution_Part_Construct"
+    ],
+    "Asynchronous_Stmt": [],
+    "Module_Nature": [],
+    "Label": [],
+    "Rewind_Stmt": [
+        "File_Unit_Number"
+    ],
+    "Ac_Spec": [
+        "Type_Spec"
+    ],
+    "Mask_Expr": [],
+    "Enumerator_Def_Stmt": [],
+    "Stride": [],
+    "Function_Stmt": [
+        "Language_Binding_Spec",
+        "Prefix",
+        "Suffix"
+    ],
+    "If_Then_Stmt": [],
+    "Logical_Expr": [
+        "Binary_Constant",
+        "Char_Literal_Constant",
+        "Complex_Literal_Constant",
+        "Expr",
+        "Hex_Constant",
+        "Int_Literal_Constant",
+        "Octal_Constant",
+        "Real_Literal_Constant",
+        "Signed_Int_Literal_Constant",
+        "Signed_Real_Literal_Constant"
+    ],
+    "Subroutine_Stmt": [
+        "Prefix",
+        "Proc_Language_Binding_Spec"
+    ],
+    "Equivalence_Set": [],
+    "Cray_Pointee_Decl": [
+        "Cray_Pointee_Array_Spec"
+    ],
+    "Procedure_Designator": [
+        "Data_Ref"
+    ],
+    "Numeric_Expr": [
+        "Binary_Constant",
+        "Char_Literal_Constant",
+        "Expr",
+        "Hex_Constant",
+        "Logical_Literal_Constant",
+        "Octal_Constant"
+    ],
+    "Data_Stmt_Set": [],
+    "Char_Variable": [],
+    "Proc_Component_Ref": [
+        "Variable"
+    ],
+    "Else_Stmt": [],
+    "Null_Init": [],
+    "Component_Attr_Spec": [],
+    "Data_I_Do_Object": [],
+    "Dummy_Arg_Name": [],
+    "Format": [],
+    "Or_Operand": [
+        "And_Operand"
+    ],
+    "Digit_String": [],
+    "Goto_Stmt": [
+        "Label"
+    ],
+    "Io_Unit": [],
+    "Do_Term_Action_Stmt": [],
+    "Keyword": [],
+    "Real_Literal_Constant": [],
+    "Block_Data_Stmt": [],
+    "Executable_Construct_C201": [
+        "Executable_Construct"
+    ],
+    "Dtio_Generic_Spec": [],
+    "Logical_Literal_Constant": [],
+    "Main_Program0": [
+        "End_Program_Stmt",
+        "Execution_Part",
+        "Internal_Subprogram_Part",
+        "Specification_Part"
+    ],
+    "Where_Construct": [
+        "Elsewhere_Stmt",
+        "End_Where_Stmt",
+        "Masked_Elsewhere_Stmt",
+        "Where_Body_Construct",
+        "Where_Construct_Stmt"
+    ],
+    "Shared_Term_Do_Construct": [],
+    "Type_Guard_Stmt": [
+        "Type_Spec"
+    ],
+    "Data_I_Do_Variable": [],
+    "Type_Spec": [],
+    "Do_Stmt": [],
+    "Interface_Block": [
+        "End_Interface_Stmt",
+        "Interface_Specification",
+        "Interface_Stmt"
+    ],
+    "Type_Param_Inquiry": [
+        "Designator"
+    ],
+    "Intent_Stmt": [
+        "Intent_Spec"
+    ],
+    "Type_Param_Spec": [
+        "Keyword",
+        "Type_Param_Value"
+    ],
+    "Format_Item_C1002": [
+        "Control_Edit_Desc",
+        "Data_Edit_Desc",
+        "Data_Edit_Desc_C1002",
+        "Format_Item"
+    ],
+    "Forall_Stmt": [
+        "Forall_Assignment_Stmt",
+        "Forall_Header"
+    ],
+    "Alt_Return_Spec": [
+        "Label"
+    ],
+    "Rename": [
+        "Local_Defined_Operator",
+        "Use_Defined_Operator"
+    ],
+    "Defined_Binary_Op": [],
+    "Format_Item_List": [
+        "Control_Edit_Desc",
+        "Format_Item",
+        "Hollerith_Item"
+    ],
+    "Entry_Stmt": [
+        "Suffix"
+    ],
+    "Actual_Arg_Spec": [
+        "Actual_Arg",
+        "Keyword"
+    ],
+    "Action_Stmt": [],
+    "Control_Edit_Desc": [
+        "K",
+        "R"
+    ],
+    "File_Unit_Number": [],
+    "Associate_Stmt": [],
+    "Binding_PASS_Arg_Name": [],
+    "W": [],
+    "K": [],
+    "Io_Implied_Do_Control": [
+        "Do_Variable"
+    ],
+    "Case_Stmt": [
+        "Case_Selector"
+    ],
+    "Procedure_Stmt": [],
+    "Hollerith_Item": [],
+    "Data_Target": [],
+    "Format_Item": [
+        "Data_Edit_Desc",
+        "Data_Edit_Desc_C1002",
+        "Format_Item_List",
+        "R"
+    ],
+    "Contains_Stmt": [],
+    "If_Stmt": [
+        "Action_Stmt_C802"
+    ],
+    "End_Block_Data_Stmt": [],
+    "Dealloc_Opt": [
+        "Errmsg_Variable",
+        "Stat_Variable"
+    ],
+    "File_Name_Expr": [],
+    "Dummy_Arg": [],
+    "Intrinsic_Stmt": [],
+    "Selector": [],
+    "Type_Param_Decl": [],
+    "External_Stmt": [],
+    "End_Function_Stmt": [],
+    "Lower_Bound_Expr": [],
+    "External_Subprogram": [],
+    "Extended_Intrinsic_Op": [],
+    "Char_Expr": [
+        "Binary_Constant",
+        "Complex_Literal_Constant",
+        "Expr",
+        "Hex_Constant",
+        "Int_Literal_Constant",
+        "Logical_Literal_Constant",
+        "Octal_Constant",
+        "Real_Literal_Constant",
+        "Signed_Int_Literal_Constant",
+        "Signed_Real_Literal_Constant"
+    ],
+    "Equivalence_Stmt": [],
+    "Array_Constructor": [
+        "Ac_Spec"
+    ],
+    "Ac_Implied_Do_Control": [
+        "Ac_Do_Variable"
+    ],
+    "Use_Defined_Operator": [],
+    "Data_Stmt_Object": [],
+    "Complex_Literal_Constant": [
+        "Imag_Part",
+        "Real_Part"
+    ],
+    "Literal_Constant": [],
+    "Else_If_Stmt": [],
+    "Ac_Do_Variable": [],
+    "Proc_Attr_Spec": [
+        "Intent_Spec"
+    ],
+    "Forall_Construct": [
+        "End_Forall_Stmt",
+        "Forall_Body_Construct",
+        "Forall_Construct_Stmt"
+    ],
+    "Private_Or_Sequence": [],
+    "Allocate_Shape_Spec": [
+        "Lower_Bound_Expr",
+        "Upper_Bound_Expr"
+    ],
+    "Variable_Name": [],
+    "Implicit_Part_Stmt": [],
+    "Internal_Subprogram_Part": [
+        "Contains_Stmt",
+        "Internal_Subprogram"
+    ],
+    "Data_Edit_Desc": [
+        "Char_Literal_Constant",
+        "Int_Literal_Constant",
+        "M",
+        "W"
+    ],
+    "Output_Item": [],
+    "Import_Stmt": [],
+    "Format_Stmt": [
+        "Format_Specification"
+    ],
+    "Access_Stmt": [],
+    "Section_Subscript": [],
+    "Deallocate_Stmt": [],
+    "Connect_Spec": [
+        "File_Name_Expr",
+        "File_Unit_Number",
+        "Iomsg_Variable",
+        "Label"
+    ],
+    "Protected_Stmt": [],
+    "Assumed_Size_Spec": [
+        "Lower_Bound"
+    ],
+    "Specification_Stmt": [],
+    "Data_Ref": [
+        "Part_Ref"
+    ],
+    "Action_Stmt_C802": [
+        "Action_Stmt"
+    ],
+    "Execution_Part_Construct": [],
+    "Assignment_Stmt": [
+        "Expr",
+        "Variable"
+    ],
+    "Return_Stmt": [],
+    "Module_Subprogram_Part": [
+        "Contains_Stmt",
+        "Module_Subprogram"
+    ],
+    "Iomsg_Variable": [],
+    "Variable": [],
+    "Int_Constant": [],
+    "Errmsg_Variable": [],
+    "Substring": [
+        "Parent_String",
+        "Substring_Range"
+    ],
+    "Add_Operand": [
+        "Mult_Operand"
+    ],
+    "Continue_Stmt": [],
+    "Comment": [],
+    "Associate_Construct": [
+        "Associate_Stmt",
+        "End_Associate_Stmt",
+        "Execution_Part_Construct"
+    ],
+    "Allocate_Stmt": [
+        "Type_Spec"
+    ],
+    "Inner_Shared_Do_Construct": [
+        "Do_Body",
+        "Do_Term_Shared_Stmt",
+        "Label_Do_Stmt"
+    ],
+    "Length_Selector": [
+        "Char_Length",
+        "Type_Param_Value"
+    ],
+    "Alloc_Opt": [
+        "Errmsg_Variable",
+        "Source_Expr",
+        "Stat_Variable"
+    ],
+    "Decimal_Edit_Desc": [],
+    "Parent_String": [],
+    "Namelist_Group_Object": [],
+    "Lower_Bound": [],
+    "Defined_Unary_Op": [],
+    "Bind_Stmt": [
+        "Language_Binding_Spec"
+    ],
+    "Proc_Component_Def_Stmt": [
+        "Proc_Component_Attr_Spec",
+        "Proc_Interface"
+    ],
+    "Elsewhere_Stmt": [],
+    "Proc_Component_PASS_Arg_Name": [],
+    "Assumed_Shape_Spec": [
+        "Lower_Bound"
+    ],
+    "Array_Element": [],
+    "Type_Attr_Spec": [],
+    "Explicit_Shape_Spec": [
+        "Lower_Bound",
+        "Upper_Bound"
+    ],
+    "Entity_Decl": [
+        "Array_Spec",
+        "Char_Length",
+        "Initialization",
+        "Name"
+    ],
+    "Common_Stmt": [],
+    "Value_Stmt": [],
+    "Constant_Subobject": [],
+    "Component_Spec": [
+        "Component_Data_Source",
+        "Keyword"
+    ],
+    "Level_4_Expr": [
+        "Level_3_Expr"
+    ],
+    "Octal_Constant": [],
+    "Generic_Binding": [
+        "Access_Spec",
+        "Generic_Spec"
+    ],
+    "Cray_Pointee_Array_Spec": [],
+    "Pointer_Object": [],
+    "Int_Literal_Constant": [],
+    "Execution_Part_Construct_C201": [],
+    "M": [],
+    "Module_Subprogram": [],
+    "End_Module_Stmt": [],
+    "Subscript_Triplet": [
+        "Stride",
+        "Subscript"
+    ],
+    "Wait_Stmt": [],
+    "Forall_Triplet_Spec": [
+        "Stride",
+        "Subscript"
+    ],
+    "Function_Subprogram": [
+        "End_Function_Stmt",
+        "Execution_Part",
+        "Function_Stmt",
+        "Internal_Subprogram_Part",
+        "Specification_Part"
+    ],
+    "Proc_Pointer_Name": [],
+    "Case_Selector": [],
+    "Block_Nonlabel_Do_Construct": [
+        "End_Do_Stmt",
+        "Execution_Part_Construct",
+        "Nonlabel_Do_Stmt"
+    ],
+    "Stat_Variable": [],
+    "Deferred_Shape_Spec": [],
+    "Suffix": [
+        "Proc_Language_Binding_Spec"
+    ],
+    "If_Construct": [
+        "Else_If_Stmt",
+        "Else_Stmt",
+        "End_If_Stmt",
+        "Execution_Part_Construct",
+        "If_Then_Stmt"
+    ],
+    "Case_Value": [],
+    "End_Select_Type_Stmt": [],
+    "Case_Value_Range": [
+        "Case_Value"
+    ],
+    "Intent_Attr_Spec": [
+        "Intent_Spec"
+    ],
+    "End_Enum_Stmt": [],
+    "Inquire_Spec": [
+        "File_Name_Expr",
+        "File_Unit_Number",
+        "Iomsg_Variable",
+        "Label"
+    ],
+    "Cray_Pointer_Decl": [
+        "Cray_Pointee_Decl"
+    ],
+    "Io_Implied_Do_Object": [],
+    "Bounds_Spec": [
+        "Lower_Bound_Expr"
+    ],
+    "Specific_Binding": [
+        "Interface_Name"
+    ],
+    "Allocate_Object": [],
+    "Kind_Selector": [
+        "Char_Length"
+    ],
+    "Action_Term_Do_Construct": [
+        "Do_Term_Action_Stmt",
+        "Execution_Part_Construct",
+        "Label_Do_Stmt"
+    ],
+    "Level_1_Expr": [
+        "Primary"
+    ],
+    "Use_Stmt": [
+        "Generic_Spec",
+        "Module_Nature",
+        "Name",
+        "Rename"
+    ],
+    "Procedure_Declaration_Stmt": [
+        "Proc_Interface"
+    ],
+    "Int_Constant_Subobject": [],
+    "Level_2_Expr": [
+        "Add_Operand"
+    ],
+    "Binding_Attr": [],
+    "Data_Stmt_Constant": [],
+    "Forall_Construct_Stmt": [
+        "Forall_Header"
+    ],
+    "Int_Expr": [
+        "Binary_Constant",
+        "Char_Literal_Constant",
+        "Complex_Literal_Constant",
+        "Expr",
+        "Hex_Constant",
+        "Logical_Literal_Constant",
+        "Octal_Constant",
+        "Real_Literal_Constant",
+        "Signed_Real_Literal_Constant"
+    ],
+    "Target_Stmt": [],
+    "Object_Name_Deferred_Shape_Spec_List_Item": [
+        "Object_Name"
+    ],
+    "Inquire_Stmt": [],
+    "Equiv_Operand": [
+        "Or_Operand"
+    ],
+    "Select_Type_Construct": [
+        "End_Select_Type_Stmt",
+        "Execution_Part_Construct",
+        "Select_Type_Stmt",
+        "Type_Guard_Stmt"
+    ],
+    "Type_Param_Def_Stmt": [
+        "Kind_Selector",
+        "Type_Param_Attr_Spec"
+    ],
+    "Position_Edit_Desc": [
+        "N"
+    ],
+    "Action_Stmt_C824": [
+        "Action_Stmt"
+    ],
+    "Attr_Spec": [],
+    "Do_Construct": [],
+    "And_Operand": [
+        "Level_4_Expr"
+    ],
+    "Component_Data_Source": [],
+    "Parameter_Stmt": [],
+    "Case_Construct": [
+        "Case_Stmt",
+        "End_Select_Stmt",
+        "Execution_Part_Construct",
+        "Select_Case_Stmt"
+    ],
+    "Default_Logical_Variable": [],
+    "Backspace_Stmt": [
+        "File_Unit_Number"
+    ],
+    "End_Type_Stmt": [
+        "Type_Name"
+    ],
+    "Primary": [],
+    "Component_Def_Stmt": [],
+    "Wait_Spec": [
+        "File_Unit_Number",
+        "Iomsg_Variable",
+        "Label"
+    ],
+    "Case_Expr": [],
+    "Defined_Op": [],
+    "Executable_Construct": [],
+    "Default_Char_Variable": [],
+    "Structure_Constructor": [
+        "Derived_Type_Spec"
+    ],
+    "Allocatable_Stmt": [],
+    "Dimension_Attr_Spec": [
+        "Array_Spec"
+    ],
+    "Char_Literal_Constant": [],
+    "Derived_Type_Def": [
+        "Component_Part",
+        "Derived_Type_Stmt",
+        "End_Type_Stmt",
+        "Private_Or_Sequence",
+        "Type_Bound_Procedure_Part",
+        "Type_Param_Def_Stmt"
+    ],
+    "End_Where_Stmt": [],
+    "Dtv_Type_Spec": [
+        "Derived_Type_Spec"
+    ],
+    "Boz_Literal_Constant": [],
+    "Substring_Range": [],
+    "Default_Char_Expr": [
+        "Binary_Constant",
+        "Complex_Literal_Constant",
+        "Expr",
+        "Hex_Constant",
+        "Int_Literal_Constant",
+        "Logical_Literal_Constant",
+        "Octal_Constant",
+        "Real_Literal_Constant",
+        "Signed_Int_Literal_Constant",
+        "Signed_Real_Literal_Constant"
+    ],
+    "Proc_Interface": [],
+    "Function_Body": [
+        "End_Function_Stmt",
+        "Function_Stmt",
+        "Specification_Part"
+    ],
+    "Signed_Int_Literal_Constant": [],
+    "Mult_Operand": [
+        "Level_1_Expr"
+    ],
+    "Stmt_Function_Stmt": [],
+    "Forall_Header": [],
+    "Data_Stmt": [
+        "Data_Stmt_Set"
+    ],
+    "Forall_Body_Construct": [],
+    "Level_5_Expr": [
+        "Equiv_Operand"
+    ],
+    "Dimension_Component_Attr_Spec": [
+        "Component_Array_Spec"
+    ],
+    "Interface_Body": [],
+    "Intrinsic_Name": [],
+    "Exit_Stmt": [],
+    "Prefix": [
+        "Declaration_Type_Spec",
+        "Prefix_Spec"
+    ],
+    "End_Select_Stmt": [],
+    "End_Associate_Stmt": [],
+    "End_Program_Stmt": [],
+    "Array_Section": [
+        "Data_Ref",
+        "Substring_Range"
+    ],
+    "Open_Stmt": [],
+    "Data_Implied_Do": [
+        "Data_I_Do_Variable"
+    ],
+    "End_Do": [],
+    "Proc_Pointer_Object": [],
+    "Generic_Spec": [
+        "Defined_Operator"
+    ],
+    "Intent_Spec": [],
+    "Part_Ref": [],
+    "Nonlabel_Do_Stmt": [
+        "Loop_Control"
+    ],
+    "Input_Item": [],
+    "Specification_Part": [
+        "Declaration_Construct",
+        "Implicit_Part",
+        "Import_Stmt",
+        "Use_Stmt"
+    ],
+    "Format_Specification": [
+        "Format_Item_List"
+    ],
+    "Outer_Shared_Do_Construct": [
+        "Do_Body",
+        "Label_Do_Stmt",
+        "Shared_Term_Do_Construct"
+    ],
+    "Scalar_Char_Initialization_Expr": [],
+    "Print_Stmt": [
+        "Format"
+    ],
+    "Forall_Assignment_Stmt": [],
+    "Final_Binding": [],
+    "Block_Label_Do_Construct": [
+        "End_Do",
+        "Execution_Part_Construct",
+        "Label_Do_Stmt"
+    ],
+    "Include_Stmt": [
+        "Include_Filename"
+    ],
+    "Program": [
+        "Main_Program0",
+        "Program_Unit"
+    ],
+    "Volatile_Stmt": [],
+    "Structure_Component": [],
+    "Source_Expr": [],
+    "Local_Defined_Operator": [],
+    "Io_Control_Spec": [
+        "Format",
+        "Io_Unit",
+        "Iomsg_Variable",
+        "Label",
+        "Scalar_Char_Initialization_Expr"
+    ],
+    "Association": [
+        "Selector"
+    ],
+    "Component_Array_Spec": [],
+    "Derived_Type_Spec": [
+        "Type_Name"
+    ],
+    "Blank_Interp_Edit_Desc": [],
+    "Data_Stmt_Repeat": [],
+    "Only_Use_Name": [],
+    "Level_3_Expr": [
+        "Level_2_Expr"
+    ],
+    "Char_Constant": [],
+    "Binding_Private_Stmt": [],
+    "Loop_Control": [
+        "Do_Variable"
+    ],
+    "Nullify_Stmt": [],
+    "Execution_Part": [
+        "Executable_Construct_C201",
+        "Execution_Part_Construct_C201"
+    ],
+    "Char_String_Edit_Desc": [],
+    "Intrinsic_Function_Reference": [
+        "Intrinsic_Name"
+    ],
+    "Subroutine_Subprogram": [
+        "End_Subroutine_Stmt",
+        "Execution_Part",
+        "Internal_Subprogram_Part",
+        "Specification_Part",
+        "Subroutine_Stmt"
+    ],
+    "Binary_Constant": [],
+    "Flush_Spec": [
+        "File_Unit_Number",
+        "Iomsg_Variable",
+        "Label"
+    ],
+    "Ac_Value": [],
+    "Stop_Stmt": [
+        "Stop_Code"
+    ],
+    "Do_Block": [
+        "Execution_Part_Construct"
+    ],
+    "Namelist_Stmt": [],
+    "Read_Stmt": [
+        "Format",
+        "Io_Control_Spec_List"
+    ],
+    "Where_Body_Construct": [],
+    "End_Interface_Stmt": [
+        "Generic_Spec"
+    ],
+    "Directive": [],
+    "Object_Name": [],
+    "Level_2_Unary_Expr": [
+        "Add_Operand"
+    ],
+    "Cycle_Stmt": [],
+    "E": [],
+    "Declaration_Type_Spec": [
+        "Derived_Type_Spec"
+    ],
+    "Char_Initialization_Expr": [],
+    "Char_Selector": [
+        "Type_Param_Value"
+    ],
+    "Select_Type_Stmt": [
+        "Selector"
+    ],
+    "Imag_Part": [],
+    "Signed_Real_Literal_Constant": [],
+    "Optional_Stmt": [],
+    "Enumerator": [
+        "Named_Constant"
+    ],
+    "Block_Do_Construct": [],
+    "Hex_Constant": [],
+    "R": [],
+    "Round_Edit_Desc": [],
+    "Program_Stmt": [],
+    "Saved_Entity": [],
+    "Do_Term_Shared_Stmt": [],
+    "Common_Block_Object": [
+        "Variable_Name"
+    ],
+    "Subroutine_Body": [
+        "End_Subroutine_Stmt",
+        "Specification_Part",
+        "Subroutine_Stmt"
+    ],
+    "Arithmetic_If_Stmt": [
+        "Label"
+    ],
+    "Equivalence_Object": [],
+    "Access_Id": [],
+    "Program_Unit": [],
+    "Specification_Expr": [],
+    "Include_Filename": [],
+    "Defined_Operator": [],
+    "Internal_File_Variable": [],
+    "Language_Binding_Spec": [
+        "Scalar_Char_Initialization_Expr"
+    ],
+    "Access_Spec": [],
+    "Where_Assignment_Stmt": [],
+    "Data_Component_Def_Stmt": [
+        "Declaration_Type_Spec"
+    ],
+    "Cray_Pointer_Stmt": [],
+    "Action_Stmt_C201": [
+        "Action_Stmt"
+    ],
+    "Pointer_Stmt": [],
+    "Implicit_Spec": [
+        "Declaration_Type_Spec"
+    ],
+    "Where_Construct_Stmt": [
+        "Mask_Expr"
+    ],
+    "Data_Edit_Desc_C1002": [
+        "D",
+        "E",
+        "W"
+    ],
+    "End_If_Stmt": [],
+    "Proc_Target": [],
+    "Sign_Edit_Desc": [],
+    "Name": [],
+    "Call_Stmt": [
+        "Procedure_Designator"
+    ],
+    "Close_Spec": [
+        "File_Unit_Number",
+        "Iomsg_Variable",
+        "Label"
+    ],
+    "Component_Part": [
+        "Component_Def_Stmt"
+    ],
+    "Interface_Stmt": [
+        "Generic_Spec"
+    ],
+    "Type_Bound_Procedure_Part": [
+        "Binding_Private_Stmt",
+        "Contains_Stmt",
+        "Proc_Binding_Stmt"
+    ],
+    "Designator": [],
+    "Real_Part": [],
+    "Int_Variable": [],
+    "Logical_Variable": [],
+    "Component_Decl": [
+        "Char_Length",
+        "Component_Array_Spec",
+        "Component_Initialization"
+    ],
+    "Derived_Type_Stmt": [
+        "Type_Name"
+    ],
+    "Letter_Spec": [],
+    "Save_Stmt": [],
+    "Char_Length": [
+        "Type_Param_Value"
+    ],
+    "Function_Reference": [
+        "Procedure_Designator"
+    ],
+    "Do_Variable": [],
+    "Module_Stmt": [],
+    "Data_Stmt_Value": [
+        "Data_Stmt_Constant",
+        "Data_Stmt_Repeat"
+    ],
+    "Proc_Language_Binding_Spec": [],
+    "Main_Program": [
+        "End_Program_Stmt",
+        "Execution_Part",
+        "Internal_Subprogram_Part",
+        "Program_Stmt",
+        "Specification_Part"
+    ],
+    "Ac_Implied_Do": [
+        "Ac_Implied_Do_Control"
+    ]
+}
