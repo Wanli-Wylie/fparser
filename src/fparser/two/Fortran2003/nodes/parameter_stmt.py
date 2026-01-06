@@ -1,3 +1,5 @@
+from named_constant_def import Named_Constant_Def_List
+
 class Parameter_Stmt(StmtBase, CALLBase):  # R538
     """
     ::

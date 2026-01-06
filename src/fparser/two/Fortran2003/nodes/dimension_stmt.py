@@ -1,3 +1,6 @@
+from array_spec import Array_Spec
+from name import Array_Name
+
 class Dimension_Stmt(StmtBase):  # R535
     """
     Fortran 2003 Rule R535::

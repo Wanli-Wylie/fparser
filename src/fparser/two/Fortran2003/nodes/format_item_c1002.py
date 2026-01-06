@@ -1,3 +1,8 @@
+from control_edit_desc import Control_Edit_Desc
+from data_edit_desc import Data_Edit_Desc
+from data_edit_desc_c1002 import Data_Edit_Desc_C1002
+from format_item import Format_Item
+
 class Format_Item_C1002(Base):  # pylint: disable=invalid-name
     """
     Fortran 2003 constraint C1002::

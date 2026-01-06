@@ -1,3 +1,5 @@
+from implicit_spec import Implicit_Spec_List
+
 class Implicit_Stmt(StmtBase):  # R549
     """
     ::

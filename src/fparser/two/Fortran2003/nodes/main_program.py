@@ -1,3 +1,9 @@
+from end_program_stmt import End_Program_Stmt
+from execution_part import Execution_Part
+from internal_subprogram_part import Internal_Subprogram_Part
+from program_stmt import Program_Stmt
+from specification_part import Specification_Part
+
 class Main_Program(BlockBase):  # R1101 [C1101, C1102, C1103]
     """
     Fortran 2003 rule R1101::

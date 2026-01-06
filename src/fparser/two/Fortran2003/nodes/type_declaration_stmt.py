@@ -1,3 +1,9 @@
+from attr_spec import Attr_Spec_List
+from declaration_type_spec import Declaration_Type_Spec
+from entity_decl import Entity_Decl
+from entity_decl import Entity_Decl_List
+from intrinsic_type_spec import Intrinsic_Type_Spec
+
 class Type_Declaration_Stmt(Type_Declaration_StmtBase):  # R501
     """
     Fortran 2003 rule 501::

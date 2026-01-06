@@ -1,3 +1,6 @@
+from label import Label
+from loop_control import Loop_Control
+
 class Label_Do_Stmt(StmtBase):  # pylint: disable=invalid-name
     """
     R828::

@@ -1,3 +1,5 @@
+from name import Subroutine_Name
+
 class End_Subroutine_Stmt(EndStmtBase):  # R1234
     """
     <end-subroutine-stmt> = END [ SUBROUTINE [ <subroutine-name> ] ]

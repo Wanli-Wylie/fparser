@@ -1,3 +1,5 @@
+from pointer_decl import Pointer_Decl_List
+
 class Pointer_Stmt(StmtBase, WORDClsBase):  # R540
     """
     ::

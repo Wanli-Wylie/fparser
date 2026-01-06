@@ -1,3 +1,5 @@
+from case_value import Case_Value
+
 class Case_Value_Range(SeparatorBase):  # R814
     """
     ::

@@ -1,3 +1,7 @@
+from cray_pointee_decl import Cray_Pointee_Decl
+from name import Cray_Pointee_Name
+from name import Cray_Pointer_Name
+
 class Cray_Pointer_Decl(Base):  # pylint: disable=invalid-name
     """
     ::

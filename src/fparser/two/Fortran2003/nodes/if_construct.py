@@ -1,3 +1,9 @@
+from else_if_stmt import Else_If_Stmt
+from else_stmt import Else_Stmt
+from end_if_stmt import End_If_Stmt
+from execution_part_construct import Execution_Part_Construct
+from if_then_stmt import If_Then_Stmt
+
 class If_Construct(BlockBase):  # R802
     """
     ::

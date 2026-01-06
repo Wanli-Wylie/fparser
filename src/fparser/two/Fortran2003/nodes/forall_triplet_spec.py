@@ -1,3 +1,7 @@
+from name import Index_Name
+from stride import Stride
+from subscript import Subscript
+
 class Forall_Triplet_Spec(Base):  # R755
     """
     ::

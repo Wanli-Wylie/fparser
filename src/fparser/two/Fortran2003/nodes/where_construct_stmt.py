@@ -1,3 +1,5 @@
+from mask_expr import Mask_Expr
+
 class Where_Construct_Stmt(StmtBase):  # R745
     """
     ::

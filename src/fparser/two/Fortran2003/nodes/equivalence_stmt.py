@@ -1,3 +1,5 @@
+from equivalence_set import Equivalence_Set_List
+
 class Equivalence_Stmt(StmtBase, WORDClsBase):  # R554
     """
     ::

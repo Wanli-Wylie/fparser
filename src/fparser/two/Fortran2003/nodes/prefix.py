@@ -1,3 +1,6 @@
+from declaration_type_spec import Declaration_Type_Spec
+from prefix_spec import Prefix_Spec
+
 class Prefix(SequenceBase):
     """
     Fortran2003 rule R1227::

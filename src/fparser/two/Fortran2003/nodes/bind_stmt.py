@@ -1,3 +1,6 @@
+from bind_entity import Bind_Entity_List
+from language_binding_spec import Language_Binding_Spec
+
 class Bind_Stmt(StmtBase):  # R522
     """
     Fortran2003 Rule R522::

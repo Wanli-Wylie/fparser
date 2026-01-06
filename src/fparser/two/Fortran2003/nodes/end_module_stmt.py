@@ -1,3 +1,5 @@
+from name import Module_Name
+
 class End_Module_Stmt(EndStmtBase):  # R1106
     """
     <end-module-stmt> = END [ MODULE [ <module-name> ] ]

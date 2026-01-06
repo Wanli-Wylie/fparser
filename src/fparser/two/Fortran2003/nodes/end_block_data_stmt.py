@@ -1,3 +1,5 @@
+from name import Block_Data_Name
+
 class End_Block_Data_Stmt(EndStmtBase):  # R1118
     """
     ::

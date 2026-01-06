@@ -1,3 +1,5 @@
+from int_expr import Scalar_Int_Expr
+
 class Substring_Range(SeparatorBase):  # R611
     """
     ::

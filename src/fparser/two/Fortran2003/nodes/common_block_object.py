@@ -1,3 +1,6 @@
+from explicit_shape_spec import Explicit_Shape_Spec_List
+from variable_name import Variable_Name
+
 class Common_Block_Object(CallBase):  # R558
     """
     ::

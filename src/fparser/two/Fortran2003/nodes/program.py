@@ -1,3 +1,6 @@
+from main_program0 import Main_Program0
+from program_unit import Program_Unit
+
 class Program(BlockBase):  # R201
     """
     Fortran 2003 rule R201::

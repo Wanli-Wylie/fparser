@@ -1,3 +1,5 @@
+from defined_operator import Defined_Operator
+
 class Generic_Spec(Base):  # R1207
     """
     ::

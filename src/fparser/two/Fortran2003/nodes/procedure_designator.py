@@ -1,3 +1,6 @@
+from data_ref import Data_Ref
+from name import Binding_Name
+
 class Procedure_Designator(BinaryOpBase):  # R1219
     """
     ::

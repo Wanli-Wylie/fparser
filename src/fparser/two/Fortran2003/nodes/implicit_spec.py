@@ -1,3 +1,6 @@
+from declaration_type_spec import Declaration_Type_Spec
+from letter_spec import Letter_Spec_List
+
 class Implicit_Spec(CallBase):  # R550
     """
     ::

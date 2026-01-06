@@ -1,3 +1,6 @@
+from name import Select_Construct_Name
+from type_spec import Type_Spec
+
 class Type_Guard_Stmt(StmtBase):  # R823
     """Fortran 2003 rule R823
 

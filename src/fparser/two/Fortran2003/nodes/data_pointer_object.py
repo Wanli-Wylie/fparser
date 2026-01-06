@@ -1,3 +1,6 @@
+from name import Data_Pointer_Component_Name
+from variable import Variable
+
 class Data_Pointer_Object(BinaryOpBase):  # R736
     """
     ::

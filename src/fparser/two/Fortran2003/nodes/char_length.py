@@ -1,3 +1,5 @@
+from type_param_value import Type_Param_Value
+
 class Char_Length(BracketBase):  # R426
     """
     ::

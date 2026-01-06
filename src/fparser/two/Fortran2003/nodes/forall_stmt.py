@@ -1,3 +1,6 @@
+from forall_assignment_stmt import Forall_Assignment_Stmt
+from forall_header import Forall_Header
+
 class Forall_Stmt(StmtBase):  # pylint: disable=invalid-name
     """
     Fortran 2003 rule R759::

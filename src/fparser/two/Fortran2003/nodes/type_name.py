@@ -1,3 +1,5 @@
+from name import Name
+
 class Type_Name(Name):  # C424
     """
     ::

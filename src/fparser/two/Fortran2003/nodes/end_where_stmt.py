@@ -1,3 +1,5 @@
+from name import Where_Construct_Name
+
 class End_Where_Stmt(EndStmtBase):  # R751
     """
     <end-where-stmt> = END WHERE [ <where-construct-name> ]

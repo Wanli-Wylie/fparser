@@ -1,3 +1,5 @@
+from logical_expr import Scalar_Logical_Expr
+
 class If_Then_Stmt(StmtBase):  # R803
     """
     ::

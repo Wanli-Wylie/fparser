@@ -1,3 +1,5 @@
+from entity_decl import Entity_Decl
+
 class Target_Entity_Decl(Entity_Decl):
     """
     ::

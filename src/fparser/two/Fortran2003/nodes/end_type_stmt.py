@@ -1,3 +1,5 @@
+from type_name import Type_Name
+
 class End_Type_Stmt(EndStmtBase):  # R433
     """
     ::

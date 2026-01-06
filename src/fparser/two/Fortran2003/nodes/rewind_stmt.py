@@ -1,3 +1,6 @@
+from file_unit_number import File_Unit_Number
+from position_spec import Position_Spec_List
+
 class Rewind_Stmt(StmtBase):  # R925
     """
     Fortran2003 Rule R925::

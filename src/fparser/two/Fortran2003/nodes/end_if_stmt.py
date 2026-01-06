@@ -1,3 +1,5 @@
+from name import If_Construct_Name
+
 class End_If_Stmt(EndStmtBase):  # R806
     """
     <end-if-stmt> = END IF [ <if-construct-name> ]

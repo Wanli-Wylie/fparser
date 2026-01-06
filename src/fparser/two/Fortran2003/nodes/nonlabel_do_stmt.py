@@ -1,3 +1,5 @@
+from loop_control import Loop_Control
+
 class Nonlabel_Do_Stmt(StmtBase, WORDClsBase):  # pylint: disable=invalid-name
     """
     R829::

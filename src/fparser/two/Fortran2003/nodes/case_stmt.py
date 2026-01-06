@@ -1,3 +1,6 @@
+from case_selector import Case_Selector
+from name import Case_Construct_Name
+
 class Case_Stmt(StmtBase):  # R810
     """
     <case-stmt> = CASE <case-selector> [ <case-construct-name> ]

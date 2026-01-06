@@ -1,3 +1,7 @@
+from dummy_arg import Dummy_Arg_List
+from name import Entry_Name
+from suffix import Suffix
+
 class Entry_Stmt(StmtBase):  # R1235
     """
     ::

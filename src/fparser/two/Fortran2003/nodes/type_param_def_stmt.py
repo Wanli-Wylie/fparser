@@ -1,3 +1,7 @@
+from kind_selector import Kind_Selector
+from type_param_attr_spec import Type_Param_Attr_Spec
+from type_param_decl import Type_Param_Decl_List
+
 class Type_Param_Def_Stmt(StmtBase):  # R435
     """
     ::

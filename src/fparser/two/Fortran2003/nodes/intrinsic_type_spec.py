@@ -1,3 +1,6 @@
+from char_selector import Char_Selector
+from kind_selector import Kind_Selector
+
 class Intrinsic_Type_Spec(WORDClsBase):  # R403
     """
     ::

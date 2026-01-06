@@ -1,3 +1,5 @@
+from name import Case_Construct_Name
+
 class End_Select_Stmt(EndStmtBase):  # R811
     """
     <end-select-stmt> = END SELECT [ <case-construct-name> ]

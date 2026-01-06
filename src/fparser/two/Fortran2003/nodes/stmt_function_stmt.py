@@ -1,3 +1,7 @@
+from dummy_arg_name import Dummy_Arg_Name_List
+from expr import Scalar_Expr
+from name import Function_Name
+
 class Stmt_Function_Stmt(StmtBase):  # R1238
     """
     ::

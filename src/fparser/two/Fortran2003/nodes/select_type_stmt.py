@@ -1,3 +1,6 @@
+from name import Associate_Name
+from selector import Selector
+
 class Select_Type_Stmt(StmtBase):  # R822
     """
     ::

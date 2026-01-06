@@ -1,3 +1,8 @@
+from declaration_construct import Declaration_Construct
+from implicit_part import Implicit_Part
+from import_stmt import Import_Stmt
+from use_stmt import Use_Stmt
+
 class Specification_Part(BlockBase):  # R204
     """
     Fortran2003 Rule R204::

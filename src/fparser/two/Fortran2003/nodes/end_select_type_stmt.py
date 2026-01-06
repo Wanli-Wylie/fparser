@@ -1,3 +1,5 @@
+from name import Select_Construct_Name
+
 class End_Select_Type_Stmt(EndStmtBase):  # R824
     """
     <end-select-type-stmt> = END SELECT [ <select-construct-name> ]

@@ -1,3 +1,5 @@
+from name import Where_Construct_Name
+
 class Elsewhere_Stmt(StmtBase, WORDClsBase):  # R750
     """
     <elsewhere-stmt> = ELSEWHERE [ <where-construct-name> ]

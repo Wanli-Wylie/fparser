@@ -1,3 +1,10 @@
+from binary_constant import Binary_Constant
+from char_literal_constant import Char_Literal_Constant
+from expr import Expr
+from hex_constant import Hex_Constant
+from logical_literal_constant import Logical_Literal_Constant
+from octal_constant import Octal_Constant
+
 class Numeric_Expr(Base):  # pylint: disable=invalid-name
     """
     Fortran 2003 rule R728::

@@ -1,3 +1,5 @@
+from and_operand import And_Operand
+
 class Or_Operand(BinaryOpBase):  # R715
     """
     ::

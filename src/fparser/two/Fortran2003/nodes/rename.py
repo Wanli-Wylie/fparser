@@ -1,3 +1,8 @@
+from local_defined_operator import Local_Defined_Operator
+from name import Local_Name
+from name import Use_Name
+from use_defined_operator import Use_Defined_Operator
+
 class Rename(Base):  # R1111
     """
     Class defining Rule #R1111::

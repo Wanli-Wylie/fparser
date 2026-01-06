@@ -1,3 +1,5 @@
+from dummy_arg_name import Dummy_Arg_Name_List
+
 class Value_Stmt(StmtBase, WORDClsBase):  # R547
     """
     ::

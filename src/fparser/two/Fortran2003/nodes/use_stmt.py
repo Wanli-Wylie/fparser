@@ -1,3 +1,11 @@
+from generic_spec import Generic_Spec
+from module_nature import Module_Nature
+from name import Module_Name
+from name import Name
+from only import Only_List
+from rename import Rename
+from rename import Rename_List
+
 class Use_Stmt(StmtBase):  # pylint: disable=invalid-name
     """
     Fortran 2003 rule R1109::

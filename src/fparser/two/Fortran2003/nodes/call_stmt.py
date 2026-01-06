@@ -1,3 +1,6 @@
+from actual_arg_spec import Actual_Arg_Spec_List
+from procedure_designator import Procedure_Designator
+
 class Call_Stmt(StmtBase):  # R1218
     """
     ::

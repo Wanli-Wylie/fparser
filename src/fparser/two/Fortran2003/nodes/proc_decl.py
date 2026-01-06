@@ -1,3 +1,6 @@
+from name import Procedure_Entity_Name
+from null_init import Null_Init
+
 class Proc_Decl(BinaryOpBase):  # R1214
     """
     ::

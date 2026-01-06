@@ -1,3 +1,6 @@
+from component_data_source import Component_Data_Source
+from keyword import Keyword
+
 class Component_Spec(KeywordValueBase):  # R458
     """
     ::

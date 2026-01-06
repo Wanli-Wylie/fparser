@@ -1,3 +1,7 @@
+from inquire_spec import Inquire_Spec_List
+from int_variable import Scalar_Int_Variable
+from output_item import Output_Item_List
+
 class Inquire_Stmt(StmtBase):  # R929
     """
     Fortran2003 Rule R929::

@@ -1,3 +1,7 @@
+from access_spec import Access_Spec
+from generic_spec import Generic_Spec
+from name import Binding_Name_List
+
 class Generic_Binding(StmtBase):
     # pylint: disable=invalid-name
     """

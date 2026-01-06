@@ -1,3 +1,5 @@
+from target_entity_decl import Target_Entity_Decl_List
+
 class Target_Stmt(StmtBase):  # R546
     """
     ::

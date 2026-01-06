@@ -1,3 +1,5 @@
+from name import Common_Block_Name
+
 class Bind_Entity(BracketBase):  # R523
     """
     ::

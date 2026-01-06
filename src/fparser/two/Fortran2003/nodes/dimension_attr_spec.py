@@ -1,3 +1,5 @@
+from array_spec import Array_Spec
+
 class Dimension_Attr_Spec(CALLBase):  # R503.d
     """
     ::

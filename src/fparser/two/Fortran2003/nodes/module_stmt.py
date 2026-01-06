@@ -1,3 +1,5 @@
+from name import Module_Name
+
 class Module_Stmt(StmtBase, WORDClsBase, ScopingRegionMixin):  # R1105
     """
     <module-stmt> = MODULE <module-name>

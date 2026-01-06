@@ -1,3 +1,5 @@
+from name import Arg_Name
+
 class Proc_Component_PASS_Arg_Name(CALLBase):
     """
     ::

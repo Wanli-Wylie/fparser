@@ -1,3 +1,5 @@
+from name import Program_Name
+
 class End_Program_Stmt(EndStmtBase):  # R1103
     """
     <end-program-stmt> = END [ PROGRAM [ <program-name> ] ]

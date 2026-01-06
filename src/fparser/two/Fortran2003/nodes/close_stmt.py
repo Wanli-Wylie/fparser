@@ -1,3 +1,5 @@
+from close_spec import Close_Spec_List
+
 class Close_Stmt(StmtBase, CALLBase):  # R908
     """
     <close-stmt> = CLOSE ( <close-spec-list> )

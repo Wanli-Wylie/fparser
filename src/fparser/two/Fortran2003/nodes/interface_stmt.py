@@ -1,3 +1,5 @@
+from generic_spec import Generic_Spec
+
 class Interface_Stmt(StmtBase):  # R1203
     """
     ::

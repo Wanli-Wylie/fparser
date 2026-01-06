@@ -1,3 +1,5 @@
+from intent_spec import Intent_Spec
+
 class Intent_Attr_Spec(CALLBase):  # R503.f
     """
     ::

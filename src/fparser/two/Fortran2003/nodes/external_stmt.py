@@ -1,3 +1,5 @@
+from name import External_Name_List
+
 class External_Stmt(StmtBase, WORDClsBase):  # R1210
     """
     ::

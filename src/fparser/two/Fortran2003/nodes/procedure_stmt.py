@@ -1,3 +1,5 @@
+from name import Procedure_Name_List
+
 class Procedure_Stmt(StmtBase):  # R1206
     """
     ::

@@ -1,3 +1,6 @@
+from allocate_object import Allocate_Object_List
+from dealloc_opt import Dealloc_Opt_List
+
 class Deallocate_Stmt(StmtBase):  # R635
     """
     ::

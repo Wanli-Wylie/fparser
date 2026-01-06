@@ -1,3 +1,7 @@
+from do_body import Do_Body
+from label_do_stmt import Label_Do_Stmt
+from shared_term_do_construct import Shared_Term_Do_Construct
+
 class Outer_Shared_Do_Construct(BlockBase):  # R839
     """
     ::

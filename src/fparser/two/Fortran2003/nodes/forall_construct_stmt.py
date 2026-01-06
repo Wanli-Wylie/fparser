@@ -1,3 +1,5 @@
+from forall_header import Forall_Header
+
 class Forall_Construct_Stmt(StmtBase, WORDClsBase):  # R753
     """
     ::

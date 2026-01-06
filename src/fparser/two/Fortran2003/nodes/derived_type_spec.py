@@ -1,3 +1,6 @@
+from type_name import Type_Name
+from type_param_spec import Type_Param_Spec_List
+
 class Derived_Type_Spec(CallBase):  # R455
     """
     ::

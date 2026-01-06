@@ -1,3 +1,5 @@
+from name import Parent_Type_Name
+
 class Type_Attr_Spec(Base):  # R431
     """
     ::

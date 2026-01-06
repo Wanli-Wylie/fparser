@@ -1,3 +1,5 @@
+from or_operand import Or_Operand
+
 class Equiv_Operand(BinaryOpBase):  # R716
     """
     ::

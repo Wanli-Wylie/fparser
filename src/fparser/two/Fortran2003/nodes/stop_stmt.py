@@ -1,3 +1,5 @@
+from stop_code import Stop_Code
+
 class Stop_Stmt(StmtBase, WORDClsBase):  # R849
     """
     <stop-stmt> = STOP [ <stop-code> ]

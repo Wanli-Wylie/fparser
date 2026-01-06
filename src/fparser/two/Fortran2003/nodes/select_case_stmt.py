@@ -1,3 +1,5 @@
+from case_expr import Case_Expr
+
 class Select_Case_Stmt(StmtBase, CALLBase):  # R809
     """
     ::

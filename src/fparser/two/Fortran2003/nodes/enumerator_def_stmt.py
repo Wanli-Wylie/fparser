@@ -1,3 +1,5 @@
+from enumerator import Enumerator_List
+
 class Enumerator_Def_Stmt(StmtBase, WORDClsBase):  # R462
     """
     ::

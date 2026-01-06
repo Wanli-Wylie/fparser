@@ -1,3 +1,6 @@
+from int_initialization_expr import Scalar_Int_Initialization_Expr
+from name import Type_Param_Name
+
 class Type_Param_Decl(BinaryOpBase):  # R436
     """
     ::

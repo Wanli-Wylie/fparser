@@ -1,3 +1,5 @@
+from name import If_Construct_Name
+
 class Else_Stmt(StmtBase):  # R805
     """
     <else-stmt> = ELSE [ <if-construct-name> ]

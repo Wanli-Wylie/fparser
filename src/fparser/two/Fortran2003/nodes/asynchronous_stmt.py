@@ -1,3 +1,5 @@
+from object_name import Object_Name_List
+
 class Asynchronous_Stmt(StmtBase, WORDClsBase):  # R521
     """
     Fortran2003 Rule R521::

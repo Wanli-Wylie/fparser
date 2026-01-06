@@ -1,3 +1,6 @@
+from designator import Designator
+from name import Type_Param_Name
+
 class Type_Param_Inquiry(BinaryOpBase):  # R615
     """
     ::

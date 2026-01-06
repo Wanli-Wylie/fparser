@@ -1,3 +1,6 @@
+from allocate_object import Allocate_Object
+from allocate_shape_spec import Allocate_Shape_Spec_List
+
 class Allocation(CallBase):  # R628
     """
     ::

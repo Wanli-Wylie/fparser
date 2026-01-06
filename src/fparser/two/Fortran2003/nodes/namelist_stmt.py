@@ -1,3 +1,6 @@
+from name import Namelist_Group_Name
+from namelist_group_object import Namelist_Group_Object_List
+
 class Namelist_Stmt(StmtBase):  # R552
     """
     Fortran 2003 rule R552::

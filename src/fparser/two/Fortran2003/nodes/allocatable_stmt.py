@@ -1,3 +1,5 @@
+from object_name_deferred_shape_spec_list_item import Object_Name_Deferred_Shape_Spec_List_Item_List
+
 class Allocatable_Stmt(StmtBase, WORDClsBase):  # R520
     """
     Fortran2003 Rule R520::

@@ -1,3 +1,5 @@
+from name import Forall_Construct_Name
+
 class End_Forall_Stmt(EndStmtBase):  # R758
     """
     <end-forall-stmt> = END FORALL [ <forall-construct-name> ]

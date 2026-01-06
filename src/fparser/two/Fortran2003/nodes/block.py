@@ -1,3 +1,5 @@
+from execution_part_construct import Execution_Part_Construct
+
 class Block(BlockBase):  # R801
     """
     <block> = [ <execution-part-construct> ]...

@@ -1,3 +1,5 @@
+from equiv_operand import Equiv_Operand
+
 class Level_5_Expr(BinaryOpBase):  # R717
     """
     ::

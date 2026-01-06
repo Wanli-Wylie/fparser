@@ -1,3 +1,10 @@
+from bounds_remapping import Bounds_Remapping_List
+from bounds_spec import Bounds_Spec_List
+from data_pointer_object import Data_Pointer_Object
+from data_target import Data_Target
+from proc_pointer_object import Proc_Pointer_Object
+from proc_target import Proc_Target
+
 class Pointer_Assignment_Stmt(StmtBase):  # R735
     """
     ::

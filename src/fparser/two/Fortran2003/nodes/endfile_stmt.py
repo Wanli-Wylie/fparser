@@ -1,3 +1,6 @@
+from file_unit_number import File_Unit_Number
+from position_spec import Position_Spec_List
+
 class Endfile_Stmt(StmtBase):  # R924
     """
     Fortran2003 Rule R924::

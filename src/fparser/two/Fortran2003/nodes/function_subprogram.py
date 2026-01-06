@@ -1,3 +1,9 @@
+from end_function_stmt import End_Function_Stmt
+from execution_part import Execution_Part
+from function_stmt import Function_Stmt
+from internal_subprogram_part import Internal_Subprogram_Part
+from specification_part import Specification_Part
+
 class Function_Subprogram(BlockBase):  # R1223
     """
     ::

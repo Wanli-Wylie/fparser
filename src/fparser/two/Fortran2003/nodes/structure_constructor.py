@@ -1,3 +1,6 @@
+from component_spec import Component_Spec_List
+from derived_type_spec import Derived_Type_Spec
+
 class Structure_Constructor(CallBase):  # R457
     """
     ::

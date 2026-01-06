@@ -1,3 +1,5 @@
+from pointer_object import Pointer_Object_List
+
 class Nullify_Stmt(StmtBase, CALLBase):  # R633
     """
     ::

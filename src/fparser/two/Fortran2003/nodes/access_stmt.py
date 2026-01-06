@@ -1,3 +1,5 @@
+from access_id import Access_Id_List
+
 class Access_Stmt(StmtBase, WORDClsBase):  # R518
     """
     Fortran2003 Rule R518::

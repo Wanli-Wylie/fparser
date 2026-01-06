@@ -1,3 +1,6 @@
+from expr import Expr
+from variable import Variable
+
 class Assignment_Stmt(StmtBase, BinaryOpBase):  # R734
     """
     ::

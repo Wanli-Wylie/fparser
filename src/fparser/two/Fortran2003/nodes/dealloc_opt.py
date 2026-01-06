@@ -1,3 +1,6 @@
+from errmsg_variable import Errmsg_Variable
+from stat_variable import Stat_Variable
+
 class Dealloc_Opt(KeywordValueBase):  # R636
     """
     ::

@@ -1,3 +1,8 @@
+from proc_component_attr_spec import Proc_Component_Attr_Spec
+from proc_component_attr_spec import Proc_Component_Attr_Spec_List
+from proc_decl import Proc_Decl_List
+from proc_interface import Proc_Interface
+
 class Proc_Component_Def_Stmt(StmtBase):  # R445
     """
     ::

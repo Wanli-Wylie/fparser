@@ -1,3 +1,5 @@
+from expr import Expr
+
 class Parenthesis(BracketBase):
     """
     Part of Fortran 2003 rule R701::

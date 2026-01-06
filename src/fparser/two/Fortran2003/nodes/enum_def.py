@@ -1,3 +1,7 @@
+from end_enum_stmt import End_Enum_Stmt
+from enum_def_stmt import Enum_Def_Stmt
+from enumerator_def_stmt import Enumerator_Def_Stmt
+
 class Enum_Def(BlockBase):  # R460
     """
     ::

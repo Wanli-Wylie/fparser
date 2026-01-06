@@ -1,3 +1,5 @@
+from implicit_part_stmt import Implicit_Part_Stmt
+
 class Implicit_Part(BlockBase):  # R205
     """
     Fortran2003 Rule R205::

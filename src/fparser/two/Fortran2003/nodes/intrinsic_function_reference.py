@@ -1,3 +1,6 @@
+from actual_arg_spec import Actual_Arg_Spec_List
+from intrinsic_name import Intrinsic_Name
+
 class Intrinsic_Function_Reference(CallBase):  # No explicit rule
     """
     Represents Fortran intrinsics::

@@ -1,3 +1,6 @@
+from action_stmt_c802 import Action_Stmt_C802
+from logical_expr import Scalar_Logical_Expr
+
 class If_Stmt(StmtBase):  # R807
     """
     Fortran 2003 rule R807::

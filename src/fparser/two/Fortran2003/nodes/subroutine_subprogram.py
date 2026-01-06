@@ -1,3 +1,9 @@
+from end_subroutine_stmt import End_Subroutine_Stmt
+from execution_part import Execution_Part
+from internal_subprogram_part import Internal_Subprogram_Part
+from specification_part import Specification_Part
+from subroutine_stmt import Subroutine_Stmt
+
 class Subroutine_Subprogram(BlockBase):  # R1231
     """
     ::

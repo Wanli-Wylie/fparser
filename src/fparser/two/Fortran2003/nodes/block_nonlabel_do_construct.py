@@ -1,3 +1,7 @@
+from end_do_stmt import End_Do_Stmt
+from execution_part_construct import Execution_Part_Construct
+from nonlabel_do_stmt import Nonlabel_Do_Stmt
+
 class Block_Nonlabel_Do_Construct(BlockBase):  # pylint: disable=invalid-name
     """
     R826_2::

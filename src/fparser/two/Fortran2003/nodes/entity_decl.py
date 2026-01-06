@@ -1,3 +1,8 @@
+from array_spec import Array_Spec
+from char_length import Char_Length
+from initialization import Initialization
+from name import Name
+
 class Entity_Decl(Base):  # R504
     """
     ::

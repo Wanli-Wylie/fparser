@@ -1,3 +1,6 @@
+from keyword import Keyword
+from type_param_value import Type_Param_Value
+
 class Type_Param_Spec(KeywordValueBase):  # R456
     """
     ::

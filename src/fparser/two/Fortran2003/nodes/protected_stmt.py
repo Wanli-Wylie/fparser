@@ -1,3 +1,5 @@
+from name import Entity_Name_List
+
 class Protected_Stmt(StmtBase, WORDClsBase):  # R542
     """
     ::

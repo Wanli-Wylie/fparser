@@ -1,3 +1,7 @@
+from end_function_stmt import End_Function_Stmt
+from function_stmt import Function_Stmt
+from specification_part import Specification_Part
+
 class Function_Body(BlockBase):
     """
     ::

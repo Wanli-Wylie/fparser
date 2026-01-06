@@ -1,3 +1,6 @@
+from dummy_arg_name import Dummy_Arg_Name_List
+from intent_spec import Intent_Spec
+
 class Intent_Stmt(StmtBase):  # R536
     """
     ::

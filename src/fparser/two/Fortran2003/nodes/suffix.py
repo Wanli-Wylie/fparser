@@ -1,3 +1,6 @@
+from name import Result_Name
+from proc_language_binding_spec import Proc_Language_Binding_Spec
+
 class Suffix(Base):  # R1229
     """
     ::

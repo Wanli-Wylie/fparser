@@ -1,3 +1,6 @@
+from explicit_shape_spec import Explicit_Shape_Spec_List
+from lower_bound import Lower_Bound
+
 class Assumed_Size_Spec(Base):  # R516
     """
     Fortran2003 Rule R516::

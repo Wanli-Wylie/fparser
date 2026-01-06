@@ -1,3 +1,5 @@
+from label import Label
+
 class Goto_Stmt(StmtBase):  # R845
     """
     <goto-stmt> = GO TO <label>

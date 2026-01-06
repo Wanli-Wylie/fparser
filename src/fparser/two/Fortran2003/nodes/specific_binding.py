@@ -1,3 +1,8 @@
+from binding_attr import Binding_Attr_List
+from interface_name import Interface_Name
+from name import Binding_Name
+from name import Procedure_Name
+
 class Specific_Binding(StmtBase):  # pylint: disable=invalid-name
     """Fortran2003 Rule R451::
 

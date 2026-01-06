@@ -1,3 +1,6 @@
+from mask_expr import Mask_Expr
+from where_assignment_stmt import Where_Assignment_Stmt
+
 class Where_Stmt(StmtBase):  # R743
     """
     ::

@@ -1,3 +1,5 @@
+from name import Do_Construct_Name
+
 class End_Do_Stmt(EndStmtBase):  # pylint: disable=invalid-name
     """
     R834::

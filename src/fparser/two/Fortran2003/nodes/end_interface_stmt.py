@@ -1,3 +1,5 @@
+from generic_spec import Generic_Spec
+
 class End_Interface_Stmt(EndStmtBase):  # R1204
     """
     ::

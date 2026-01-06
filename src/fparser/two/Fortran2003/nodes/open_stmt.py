@@ -1,3 +1,5 @@
+from connect_spec import Connect_Spec_List
+
 class Open_Stmt(StmtBase, CALLBase):  # R904
     """
     R904 is:

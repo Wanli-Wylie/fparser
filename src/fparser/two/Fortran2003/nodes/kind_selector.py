@@ -1,3 +1,6 @@
+from char_length import Char_Length
+from int_initialization_expr import Scalar_Int_Initialization_Expr
+
 class Kind_Selector(Base):  # R404
     """
     Fortran 2003 rule R404::

@@ -1,3 +1,5 @@
+from name import Associate_Construct_Name
+
 class End_Associate_Stmt(EndStmtBase):  # R820
     """
     <end-associate-stmt> = END ASSOCIATE [ <associate-construct-name> ]

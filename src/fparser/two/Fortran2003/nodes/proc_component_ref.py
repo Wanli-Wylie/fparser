@@ -1,3 +1,6 @@
+from name import Procedure_Component_Name
+from variable import Variable
+
 class Proc_Component_Ref(BinaryOpBase):  # R741
     """
     ::

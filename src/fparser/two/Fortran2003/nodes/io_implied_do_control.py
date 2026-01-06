@@ -1,3 +1,6 @@
+from do_variable import Do_Variable
+from int_expr import Scalar_Int_Expr
+
 class Io_Implied_Do_Control(Base):  # R919
     """
     ::

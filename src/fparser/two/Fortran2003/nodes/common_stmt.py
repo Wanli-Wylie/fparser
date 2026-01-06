@@ -1,3 +1,6 @@
+from common_block_object import Common_Block_Object_List
+from name import Common_Block_Name
+
 class Common_Stmt(StmtBase):  # R557
     """
     ::

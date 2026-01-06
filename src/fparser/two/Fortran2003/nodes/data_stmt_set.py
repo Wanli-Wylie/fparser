@@ -1,3 +1,6 @@
+from data_stmt_object import Data_Stmt_Object_List
+from data_stmt_value import Data_Stmt_Value_List
+
 class Data_Stmt_Set(Base):  # R525
     """
     Fortran2003 Rule R525::

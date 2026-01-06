@@ -1,3 +1,7 @@
+from associate_stmt import Associate_Stmt
+from end_associate_stmt import End_Associate_Stmt
+from execution_part_construct import Execution_Part_Construct
+
 class Associate_Construct(BlockBase):  # R816
     """
     ::

@@ -1,3 +1,6 @@
+from file_unit_number import File_Unit_Number
+from position_spec import Position_Spec_List
+
 class Backspace_Stmt(StmtBase):  # R923
     """
     Fortran2003 Rule R923::

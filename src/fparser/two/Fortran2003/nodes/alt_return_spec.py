@@ -1,3 +1,5 @@
+from label import Label
+
 class Alt_Return_Spec(Base):  # R1222
     """
     ::

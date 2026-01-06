@@ -1,3 +1,7 @@
+from binding_private_stmt import Binding_Private_Stmt
+from contains_stmt import Contains_Stmt
+from proc_binding_stmt import Proc_Binding_Stmt
+
 class Type_Bound_Procedure_Part(BlockBase):  # pylint: disable=invalid-name
     """
     Fortran 2003 rule R448.

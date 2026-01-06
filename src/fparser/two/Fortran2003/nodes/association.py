@@ -1,3 +1,6 @@
+from name import Associate_Name
+from selector import Selector
+
 class Association(BinaryOpBase):  # R818
     """
     <association> = <associate-name> => <selector>

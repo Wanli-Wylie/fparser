@@ -1,3 +1,7 @@
+from alloc_opt import Alloc_Opt_List
+from allocation import Allocation_List
+from type_spec import Type_Spec
+
 class Allocate_Stmt(StmtBase):  # R623
     """
     Fortran2003 rule R623::

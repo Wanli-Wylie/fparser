@@ -1,3 +1,5 @@
+from name import Final_Subroutine_Name_List
+
 class Final_Binding(StmtBase, WORDClsBase):  # pylint: disable=invalid-name
     """
     Fortran2003 Rule R454::

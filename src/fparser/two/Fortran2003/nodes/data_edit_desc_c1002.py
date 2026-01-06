@@ -1,3 +1,7 @@
+from d import D
+from e import E
+from w import W
+
 class Data_Edit_Desc_C1002(Base):
     """This class helps implement the matching for the first part of the
     Fortran 2003 Constraint C1002 which constrains rule R1002. In

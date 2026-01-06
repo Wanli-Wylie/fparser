@@ -1,3 +1,5 @@
+from execution_part_construct import Execution_Part_Construct
+
 class Do_Body(BlockBase):  # R837
     """
     <do-body> = [ <execution-part-construct> ]...

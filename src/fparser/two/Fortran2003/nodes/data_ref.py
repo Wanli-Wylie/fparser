@@ -1,3 +1,5 @@
+from part_ref import Part_Ref
+
 class Data_Ref(SequenceBase):
     """
     Fortran 2003 Rule R612::

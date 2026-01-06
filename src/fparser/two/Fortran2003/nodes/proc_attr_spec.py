@@ -1,3 +1,5 @@
+from intent_spec import Intent_Spec
+
 class Proc_Attr_Spec(Base):  # R1213
     """
     ::

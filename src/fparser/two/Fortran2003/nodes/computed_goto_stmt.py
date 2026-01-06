@@ -1,3 +1,6 @@
+from int_expr import Scalar_Int_Expr
+from label import Label_List
+
 class Computed_Goto_Stmt(StmtBase):  # R846
     """
     <computed-goto-stmt> = GO TO ( <label-list> ) [ , ] <scalar-int-expr>

@@ -1,3 +1,6 @@
+from deferred_shape_spec import Deferred_Shape_Spec_List
+from object_name import Object_Name
+
 class Object_Name_Deferred_Shape_Spec_List_Item(CallBase):
     """
     ::

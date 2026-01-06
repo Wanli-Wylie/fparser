@@ -1,3 +1,5 @@
+from data_stmt_set import Data_Stmt_Set
+
 class Data_Stmt(StmtBase):  # R524
     """
     Fortran 2003 Rule R524::

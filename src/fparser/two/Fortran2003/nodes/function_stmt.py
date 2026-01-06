@@ -1,3 +1,9 @@
+from dummy_arg import Dummy_Arg_List
+from language_binding_spec import Language_Binding_Spec
+from name import Function_Name
+from prefix import Prefix
+from suffix import Suffix
+
 class Function_Stmt(StmtBase, ScopingRegionMixin):  # R1224
     """
     ::

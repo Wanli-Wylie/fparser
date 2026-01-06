@@ -1,3 +1,6 @@
+from contains_stmt import Contains_Stmt
+from module_subprogram import Module_Subprogram
+
 class Module_Subprogram_Part(BlockBase):  # R1107
     """
     ::

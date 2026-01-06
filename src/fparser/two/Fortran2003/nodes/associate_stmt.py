@@ -1,3 +1,5 @@
+from association import Association_List
+
 class Associate_Stmt(StmtBase, CALLBase):  # R817
     """
     ::

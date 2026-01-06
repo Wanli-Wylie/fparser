@@ -1,3 +1,5 @@
+from lower_bound import Lower_Bound
+
 class Assumed_Shape_Spec(SeparatorBase):  # R514
     """
     Fortran2003 Rule R514::

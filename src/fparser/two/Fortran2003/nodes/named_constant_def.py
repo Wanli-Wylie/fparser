@@ -1,3 +1,6 @@
+from initialization_expr import Initialization_Expr
+from named_constant import Named_Constant
+
 class Named_Constant_Def(KeywordValueBase):  # R539
     """
     ::

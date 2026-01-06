@@ -1,3 +1,7 @@
+from do_variable import Do_Variable
+from int_expr import Scalar_Int_Expr
+from logical_expr import Scalar_Logical_Expr
+
 class Loop_Control(Base):  # R830
     """
     Fortran 2003 rule R830

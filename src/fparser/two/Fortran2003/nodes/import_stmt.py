@@ -1,3 +1,5 @@
+from name import Import_Name_List
+
 class Import_Stmt(StmtBase, WORDClsBase):  # pylint: disable=invalid-name
     """
     Fortran 2003 rule R1209::

@@ -1,3 +1,6 @@
+from int_initialization_expr import Scalar_Int_Initialization_Expr
+from named_constant import Named_Constant
+
 class Enumerator(BinaryOpBase):  # R463
     """
     ::

@@ -1,3 +1,6 @@
+from forall_triplet_spec import Forall_Triplet_Spec_List
+from mask_expr import Scalar_Mask_Expr
+
 class Forall_Header(Base):  # pylint: disable=invalid-name
     """
     Fortran 2003 rule R754::

@@ -1,3 +1,5 @@
+from cray_pointer_decl import Cray_Pointer_Decl_List
+
 class Cray_Pointer_Stmt(StmtBase, WORDClsBase):  # pylint: disable=invalid-name
     """
     ::

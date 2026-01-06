@@ -1,3 +1,8 @@
+from end_program_stmt import End_Program_Stmt
+from execution_part import Execution_Part
+from internal_subprogram_part import Internal_Subprogram_Part
+from specification_part import Specification_Part
+
 class Main_Program0(BlockBase):
     """
     Rule 1101 specifies that the opening 'program-stmt' is optional. This

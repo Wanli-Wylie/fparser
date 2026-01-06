@@ -1,3 +1,5 @@
+from name import Intrinsic_Procedure_Name_List
+
 class Intrinsic_Stmt(StmtBase, WORDClsBase):  # R1216
     """
     ::

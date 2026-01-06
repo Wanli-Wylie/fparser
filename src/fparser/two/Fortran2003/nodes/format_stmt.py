@@ -1,3 +1,5 @@
+from format_specification import Format_Specification
+
 class Format_Stmt(StmtBase, WORDClsBase):  # R1001
     """
     <format-stmt> = FORMAT <format-specification>

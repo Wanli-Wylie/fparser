@@ -1,3 +1,6 @@
+from contains_stmt import Contains_Stmt
+from internal_subprogram import Internal_Subprogram
+
 class Internal_Subprogram_Part(BlockBase):  # R210
     """
     ::

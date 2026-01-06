@@ -1,3 +1,6 @@
+from k import K
+from r import R
+
 class Control_Edit_Desc(Base):  # pylint: disable=invalid-name
     """
     Fortran 2003 rule R1011::

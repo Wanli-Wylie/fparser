@@ -1,3 +1,7 @@
+from proc_attr_spec import Proc_Attr_Spec_List
+from proc_decl import Proc_Decl_List
+from proc_interface import Proc_Interface
+
 class Procedure_Declaration_Stmt(StmtBase):  # R1211
     """
     ::

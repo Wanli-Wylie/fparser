@@ -1,3 +1,5 @@
+from derived_type_spec import Derived_Type_Spec
+
 class Dtv_Type_Spec(CALLBase):  # R920
     """
     ::

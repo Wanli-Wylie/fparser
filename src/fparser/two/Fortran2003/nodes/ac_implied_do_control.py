@@ -1,3 +1,6 @@
+from ac_do_variable import Ac_Do_Variable
+from int_expr import Scalar_Int_Expr
+
 class Ac_Implied_Do_Control(Base):
     """
     Fortran2003 rule R471.

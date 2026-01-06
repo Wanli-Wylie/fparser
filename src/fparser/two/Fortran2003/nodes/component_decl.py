@@ -1,3 +1,8 @@
+from char_length import Char_Length
+from component_array_spec import Component_Array_Spec
+from component_initialization import Component_Initialization
+from name import Component_Name
+
 class Component_Decl(Base):  # R442
     """
     ::

@@ -1,3 +1,5 @@
+from n import N
+
 class Position_Edit_Desc(Base):  # R1013
     """
     Fortran 2003 rule R1013::

@@ -1,3 +1,6 @@
+from label import Label
+from numeric_expr import Scalar_Numeric_Expr
+
 class Arithmetic_If_Stmt(StmtBase):  # R847
     """
     ::

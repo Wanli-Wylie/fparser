@@ -1,3 +1,5 @@
+from equivalence_object import Equivalence_Object_List
+
 class Equivalence_Set(Base):  # R555
     """
     ::

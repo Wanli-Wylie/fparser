@@ -1,3 +1,7 @@
+from block_data_stmt import Block_Data_Stmt
+from end_block_data_stmt import End_Block_Data_Stmt
+from specification_part import Specification_Part
+
 class Block_Data(BlockBase):  # R1116
     """
     ::

@@ -1,3 +1,7 @@
+from end_interface_stmt import End_Interface_Stmt
+from interface_specification import Interface_Specification
+from interface_stmt import Interface_Stmt
+
 class Interface_Block(BlockBase):  # R1201
     """
     ::

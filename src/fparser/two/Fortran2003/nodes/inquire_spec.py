@@ -1,3 +1,12 @@
+from default_char_variable import Scalar_Default_Char_Variable
+from default_logical_variable import Scalar_Default_Logical_Variable
+from file_name_expr import File_Name_Expr
+from file_unit_number import File_Unit_Number
+from int_expr import Scalar_Int_Expr
+from int_variable import Scalar_Int_Variable
+from iomsg_variable import Iomsg_Variable
+from label import Label
+
 class Inquire_Spec(KeywordValueBase):  # R930
     """
     Fortran2003 Rule R930::

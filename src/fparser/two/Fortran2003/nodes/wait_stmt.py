@@ -1,3 +1,5 @@
+from wait_spec import Wait_Spec_List
+
 class Wait_Stmt(StmtBase, CALLBase):  # R921
     """
     <wait-stmt> = WAIT ( <wait-spec-list> )

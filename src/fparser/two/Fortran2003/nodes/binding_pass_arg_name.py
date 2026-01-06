@@ -1,3 +1,5 @@
+from name import Arg_Name
+
 class Binding_PASS_Arg_Name(CALLBase):
     # pylint: disable=invalid-name
     """

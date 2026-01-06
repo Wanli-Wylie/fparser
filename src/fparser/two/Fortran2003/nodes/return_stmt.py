@@ -1,3 +1,5 @@
+from int_expr import Scalar_Int_Expr
+
 class Return_Stmt(StmtBase):  # R1236
     """
     <return-stmt> = RETURN [ <scalar-int-expr> ]

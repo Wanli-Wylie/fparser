@@ -1,3 +1,7 @@
+from data_i_do_object import Data_I_Do_Object_List
+from data_i_do_variable import Data_I_Do_Variable
+from int_expr import Scalar_Int_Expr
+
 class Data_Implied_Do(Base):  # R527
     """
     Fortran 2003 Rule R527::

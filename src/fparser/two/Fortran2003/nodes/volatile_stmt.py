@@ -1,3 +1,5 @@
+from object_name import Object_Name_List
+
 class Volatile_Stmt(StmtBase, WORDClsBase):  # R548
     """
     ::

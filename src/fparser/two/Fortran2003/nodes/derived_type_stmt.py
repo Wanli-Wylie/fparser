@@ -1,3 +1,7 @@
+from name import Type_Param_Name_List
+from type_attr_spec import Type_Attr_Spec_List
+from type_name import Type_Name
+
 class Derived_Type_Stmt(StmtBase):  # pylint: disable=invalid-name
     """
     Fortran 2003 rule R430::

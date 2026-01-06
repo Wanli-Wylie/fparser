@@ -1,3 +1,7 @@
+from component_attr_spec import Component_Attr_Spec_List
+from component_decl import Component_Decl_List
+from declaration_type_spec import Declaration_Type_Spec
+
 class Data_Component_Def_Stmt(Type_Declaration_StmtBase):  # R440
     """
     Fortran 2003 rule 440::

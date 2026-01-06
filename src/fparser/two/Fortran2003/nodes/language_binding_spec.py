@@ -1,3 +1,5 @@
+from scalar_char_initialization_expr import Scalar_Char_Initialization_Expr
+
 class Language_Binding_Spec(Base):  # R509
     """
     Fortran2003 Rule R509::

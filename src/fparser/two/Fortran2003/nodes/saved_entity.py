@@ -1,3 +1,5 @@
+from name import Common_Block_Name
+
 class Saved_Entity(BracketBase):  # R544
     """
     ::

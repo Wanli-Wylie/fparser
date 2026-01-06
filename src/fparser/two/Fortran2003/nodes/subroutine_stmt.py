@@ -1,3 +1,8 @@
+from dummy_arg import Dummy_Arg_List
+from name import Subroutine_Name
+from prefix import Prefix
+from proc_language_binding_spec import Proc_Language_Binding_Spec
+
 class Subroutine_Stmt(StmtBase, ScopingRegionMixin):  # R1232
     """
     Fortran2003 rule R1232::

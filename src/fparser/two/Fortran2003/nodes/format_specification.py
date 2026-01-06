@@ -1,3 +1,5 @@
+from format_item import Format_Item_List
+
 class Format_Specification(BracketBase):  # pylint: disable=invalid-name
     """
     Fortran 2003 rule R1002::

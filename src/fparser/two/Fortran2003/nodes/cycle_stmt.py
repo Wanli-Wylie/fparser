@@ -1,3 +1,5 @@
+from name import Do_Construct_Name
+
 class Cycle_Stmt(StmtBase, WORDClsBase):  # R843
     """
     <cycle-stmt> = CYCLE [ <do-construct-name> ]

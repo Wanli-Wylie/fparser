@@ -1,3 +1,6 @@
+from logical_expr import Scalar_Logical_Expr
+from name import If_Construct_Name
+
 class Else_If_Stmt(StmtBase):  # R804
     """
     ::

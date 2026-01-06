@@ -1,3 +1,5 @@
+from case_value_range import Case_Value_Range_List
+
 class Case_Selector(Base):  # R813
     """
     ::

@@ -1,3 +1,6 @@
+from cray_pointee_array_spec import Cray_Pointee_Array_Spec
+from name import Cray_Pointee_Name
+
 class Cray_Pointee_Decl(CallBase):  # pylint: disable=invalid-name
     """
     ::

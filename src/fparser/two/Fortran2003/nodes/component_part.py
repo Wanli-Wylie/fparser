@@ -1,3 +1,5 @@
+from component_def_stmt import Component_Def_Stmt
+
 class Component_Part(BlockBase):  # R438
     """
     ::

@@ -1,3 +1,5 @@
+from name import Do_Construct_Name
+
 class Exit_Stmt(StmtBase, WORDClsBase):  # R844
     """
     <exit-stmt> = EXIT [ <do-construct-name> ]

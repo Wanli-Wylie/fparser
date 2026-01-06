@@ -1,3 +1,5 @@
+from name import Program_Name
+
 class Program_Stmt(StmtBase, WORDClsBase, ScopingRegionMixin):  # R1102
     """
     Fortran 2003 rule R1102::

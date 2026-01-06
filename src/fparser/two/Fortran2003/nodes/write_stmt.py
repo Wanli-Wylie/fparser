@@ -1,3 +1,6 @@
+from io_control_spec_list import Io_Control_Spec_List
+from output_item import Output_Item_List
+
 class Write_Stmt(StmtBase):  # pylint: disable=invalid-name
     """
     Fortran 2003 rule R911.

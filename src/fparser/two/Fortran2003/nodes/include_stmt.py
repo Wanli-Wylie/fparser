@@ -1,3 +1,5 @@
+from include_filename import Include_Filename
+
 class Include_Stmt(Base):  # pylint: disable=invalid-name
     """Implements the matching of a Fortran include statement. There is no
     rule for this as the compiler is expected to inline any content

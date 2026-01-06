@@ -1,3 +1,8 @@
+from end_module_stmt import End_Module_Stmt
+from module_stmt import Module_Stmt
+from module_subprogram_part import Module_Subprogram_Part
+from specification_part import Specification_Part
+
 class Module(BlockBase):  # R1104
     """
     ::

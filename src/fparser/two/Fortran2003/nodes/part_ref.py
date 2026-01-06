@@ -1,3 +1,6 @@
+from name import Part_Name
+from section_subscript import Section_Subscript_List
+
 class Part_Ref(CallBase):  # R613
     """
     ::

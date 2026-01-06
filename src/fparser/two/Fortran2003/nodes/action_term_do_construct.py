@@ -1,3 +1,7 @@
+from do_term_action_stmt import Do_Term_Action_Stmt
+from execution_part_construct import Execution_Part_Construct
+from label_do_stmt import Label_Do_Stmt
+
 class Action_Term_Do_Construct(BlockBase):  # R836
     """
     ::

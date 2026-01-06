@@ -1,3 +1,5 @@
+from component_array_spec import Component_Array_Spec
+
 class Dimension_Component_Attr_Spec(CALLBase):
     """
     ::
