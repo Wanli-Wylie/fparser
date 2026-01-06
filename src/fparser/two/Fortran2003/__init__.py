@@ -1618,55 +1618,1068 @@ for _class_file in _CLASS_FILES:
     _path = _MODULE_DIR / _class_file
     exec(compile(_path.read_text(), str(_path), "exec"), globals())
 
-ClassType = type(Base)
-_names = dir()
-for clsname in _names:
-    my_cls = eval(clsname)
-    if not (
-        isinstance(my_cls, ClassType)
-        and issubclass(my_cls, Base)
-        and not my_cls.__name__.endswith("Base")
-    ):
-        continue
-
-    names = getattr(my_cls, "subclass_names", []) + getattr(my_cls, "use_names", [])
-    for n in names:
-        if n in _names:
-            continue
-        if n.endswith("_List"):
-            _names.append(n)
-            n = n[:-5]
-            # Generate 'list' class
-            exec(
-                """\
-class %s_List(SequenceBase):
-    subclass_names = [\'%s\']
+class Ac_Value_List(SequenceBase):
+    subclass_names = ['Ac_Value']
     use_names = []
-    def match(string): return SequenceBase.match(r\',\', %s, string)
 
-"""
-                % (n, n, n)
-            )
-        elif n.endswith("_Name"):
-            _names.append(n)
-            n = n[:-5]
-            exec(
-                """\
-class %s_Name(Base):
-    subclass_names = [\'Name\']
-"""
-                % (n)
-            )
-        elif n.startswith("Scalar_"):
-            _names.append(n)
-            n = n[7:]
-            exec(
-                """\
-class Scalar_%s(Base):
-    subclass_names = [\'%s\']
-"""
-                % (n, n)
-            )
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Ac_Value, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Access_Id_List(SequenceBase):
+    subclass_names = ['Access_Id']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Access_Id, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Actual_Arg_Spec_List(SequenceBase):
+    subclass_names = ['Actual_Arg_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Actual_Arg_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Alloc_Opt_List(SequenceBase):
+    subclass_names = ['Alloc_Opt']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Alloc_Opt, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Allocate_Object_List(SequenceBase):
+    subclass_names = ['Allocate_Object']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Allocate_Object, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Allocate_Shape_Spec_List(SequenceBase):
+    subclass_names = ['Allocate_Shape_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Allocate_Shape_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Allocation_List(SequenceBase):
+    subclass_names = ['Allocation']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Allocation, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Association_List(SequenceBase):
+    subclass_names = ['Association']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Association, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Assumed_Shape_Spec_List(SequenceBase):
+    subclass_names = ['Assumed_Shape_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Assumed_Shape_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Attr_Spec_List(SequenceBase):
+    subclass_names = ['Attr_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Attr_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Bind_Entity_List(SequenceBase):
+    subclass_names = ['Bind_Entity']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Bind_Entity, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Binding_Attr_List(SequenceBase):
+    subclass_names = ['Binding_Attr']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Binding_Attr, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Binding_Name_List(SequenceBase):
+    subclass_names = ['Binding_Name']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Binding_Name, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Bounds_Remapping_List(SequenceBase):
+    subclass_names = ['Bounds_Remapping']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Bounds_Remapping, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Bounds_Spec_List(SequenceBase):
+    subclass_names = ['Bounds_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Bounds_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Case_Value_Range_List(SequenceBase):
+    subclass_names = ['Case_Value_Range']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Case_Value_Range, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Close_Spec_List(SequenceBase):
+    subclass_names = ['Close_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Close_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Common_Block_Object_List(SequenceBase):
+    subclass_names = ['Common_Block_Object']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Common_Block_Object, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Component_Attr_Spec_List(SequenceBase):
+    subclass_names = ['Component_Attr_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Component_Attr_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Component_Decl_List(SequenceBase):
+    subclass_names = ['Component_Decl']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Component_Decl, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Component_Spec_List(SequenceBase):
+    subclass_names = ['Component_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Component_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Connect_Spec_List(SequenceBase):
+    subclass_names = ['Connect_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Connect_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Cray_Pointer_Decl_List(SequenceBase):
+    subclass_names = ['Cray_Pointer_Decl']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Cray_Pointer_Decl, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Data_I_Do_Object_List(SequenceBase):
+    subclass_names = ['Data_I_Do_Object']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Data_I_Do_Object, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Data_Stmt_Object_List(SequenceBase):
+    subclass_names = ['Data_Stmt_Object']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Data_Stmt_Object, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Data_Stmt_Value_List(SequenceBase):
+    subclass_names = ['Data_Stmt_Value']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Data_Stmt_Value, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Dealloc_Opt_List(SequenceBase):
+    subclass_names = ['Dealloc_Opt']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Dealloc_Opt, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Deferred_Shape_Spec_List(SequenceBase):
+    subclass_names = ['Deferred_Shape_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Deferred_Shape_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Dummy_Arg_List(SequenceBase):
+    subclass_names = ['Dummy_Arg']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Dummy_Arg, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Dummy_Arg_Name_List(SequenceBase):
+    subclass_names = ['Dummy_Arg_Name']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Dummy_Arg_Name, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Entity_Decl_List(SequenceBase):
+    subclass_names = ['Entity_Decl']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Entity_Decl, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Entity_Name_List(SequenceBase):
+    subclass_names = ['Entity_Name']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Entity_Name, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Enumerator_List(SequenceBase):
+    subclass_names = ['Enumerator']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Enumerator, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Equivalence_Object_List(SequenceBase):
+    subclass_names = ['Equivalence_Object']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Equivalence_Object, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Equivalence_Set_List(SequenceBase):
+    subclass_names = ['Equivalence_Set']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Equivalence_Set, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Explicit_Shape_Spec_List(SequenceBase):
+    subclass_names = ['Explicit_Shape_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Explicit_Shape_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class External_Name_List(SequenceBase):
+    subclass_names = ['External_Name']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', External_Name, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Final_Subroutine_Name_List(SequenceBase):
+    subclass_names = ['Final_Subroutine_Name']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Final_Subroutine_Name, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Forall_Triplet_Spec_List(SequenceBase):
+    subclass_names = ['Forall_Triplet_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Forall_Triplet_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Implicit_Spec_List(SequenceBase):
+    subclass_names = ['Implicit_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Implicit_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Import_Name_List(SequenceBase):
+    subclass_names = ['Import_Name']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Import_Name, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Input_Item_List(SequenceBase):
+    subclass_names = ['Input_Item']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Input_Item, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Inquire_Spec_List(SequenceBase):
+    subclass_names = ['Inquire_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Inquire_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Intrinsic_Procedure_Name_List(SequenceBase):
+    subclass_names = ['Intrinsic_Procedure_Name']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Intrinsic_Procedure_Name, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Io_Implied_Do_Object_List(SequenceBase):
+    subclass_names = ['Io_Implied_Do_Object']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Io_Implied_Do_Object, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Label_List(SequenceBase):
+    subclass_names = ['Label']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Label, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Letter_Spec_List(SequenceBase):
+    subclass_names = ['Letter_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Letter_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Named_Constant_Def_List(SequenceBase):
+    subclass_names = ['Named_Constant_Def']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Named_Constant_Def, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Namelist_Group_Object_List(SequenceBase):
+    subclass_names = ['Namelist_Group_Object']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Namelist_Group_Object, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Object_Name_Deferred_Shape_Spec_List_Item_List(SequenceBase):
+    subclass_names = ['Object_Name_Deferred_Shape_Spec_List_Item']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Object_Name_Deferred_Shape_Spec_List_Item, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Object_Name_List(SequenceBase):
+    subclass_names = ['Object_Name']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Object_Name, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Only_List(SequenceBase):
+    subclass_names = ['Only']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Only, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Output_Item_List(SequenceBase):
+    subclass_names = ['Output_Item']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Output_Item, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Pointer_Decl_List(SequenceBase):
+    subclass_names = ['Pointer_Decl']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Pointer_Decl, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Pointer_Object_List(SequenceBase):
+    subclass_names = ['Pointer_Object']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Pointer_Object, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Position_Spec_List(SequenceBase):
+    subclass_names = ['Position_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Position_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Proc_Attr_Spec_List(SequenceBase):
+    subclass_names = ['Proc_Attr_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Proc_Attr_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Proc_Component_Attr_Spec_List(SequenceBase):
+    subclass_names = ['Proc_Component_Attr_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Proc_Component_Attr_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Proc_Decl_List(SequenceBase):
+    subclass_names = ['Proc_Decl']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Proc_Decl, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Procedure_Name_List(SequenceBase):
+    subclass_names = ['Procedure_Name']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Procedure_Name, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Rename_List(SequenceBase):
+    subclass_names = ['Rename']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Rename, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Saved_Entity_List(SequenceBase):
+    subclass_names = ['Saved_Entity']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Saved_Entity, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Section_Subscript_List(SequenceBase):
+    subclass_names = ['Section_Subscript']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Section_Subscript, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Target_Entity_Decl_List(SequenceBase):
+    subclass_names = ['Target_Entity_Decl']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Target_Entity_Decl, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Type_Attr_Spec_List(SequenceBase):
+    subclass_names = ['Type_Attr_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Type_Attr_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Type_Param_Decl_List(SequenceBase):
+    subclass_names = ['Type_Param_Decl']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Type_Param_Decl, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Type_Param_Name_List(SequenceBase):
+    subclass_names = ['Type_Param_Name']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Type_Param_Name, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Type_Param_Spec_List(SequenceBase):
+    subclass_names = ['Type_Param_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Type_Param_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class V_List(SequenceBase):
+    subclass_names = ['V']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', V, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Wait_Spec_List(SequenceBase):
+    subclass_names = ['Wait_Spec']
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r',', Wait_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)
+
+
+class Arg_Name(Base):
+    subclass_names = ['Name']
+
+
+class Array_Name(Base):
+    subclass_names = ['Name']
+
+
+class Associate_Construct_Name(Base):
+    subclass_names = ['Name']
+
+
+class Associate_Name(Base):
+    subclass_names = ['Name']
+
+
+class Binding_Name(Base):
+    subclass_names = ['Name']
+
+
+class Block_Data_Name(Base):
+    subclass_names = ['Name']
+
+
+class Case_Construct_Name(Base):
+    subclass_names = ['Name']
+
+
+class Common_Block_Name(Base):
+    subclass_names = ['Name']
+
+
+class Component_Name(Base):
+    subclass_names = ['Name']
+
+
+class Cray_Pointee_Name(Base):
+    subclass_names = ['Name']
+
+
+class Cray_Pointer_Name(Base):
+    subclass_names = ['Name']
+
+
+class Data_Pointer_Component_Name(Base):
+    subclass_names = ['Name']
+
+
+class Do_Construct_Name(Base):
+    subclass_names = ['Name']
+
+
+class Entity_Name(Base):
+    subclass_names = ['Name']
+
+
+class Entry_Name(Base):
+    subclass_names = ['Name']
+
+
+class Forall_Construct_Name(Base):
+    subclass_names = ['Name']
+
+
+class Function_Name(Base):
+    subclass_names = ['Name']
+
+
+class Generic_Name(Base):
+    subclass_names = ['Name']
+
+
+class If_Construct_Name(Base):
+    subclass_names = ['Name']
+
+
+class Index_Name(Base):
+    subclass_names = ['Name']
+
+
+class Local_Name(Base):
+    subclass_names = ['Name']
+
+
+class Module_Name(Base):
+    subclass_names = ['Name']
+
+
+class Namelist_Group_Name(Base):
+    subclass_names = ['Name']
+
+
+class Parent_Type_Name(Base):
+    subclass_names = ['Name']
+
+
+class Part_Name(Base):
+    subclass_names = ['Name']
+
+
+class Proc_Entity_Name(Base):
+    subclass_names = ['Name']
+
+
+class Procedure_Component_Name(Base):
+    subclass_names = ['Name']
+
+
+class Procedure_Entity_Name(Base):
+    subclass_names = ['Name']
+
+
+class Procedure_Name(Base):
+    subclass_names = ['Name']
+
+
+class Program_Name(Base):
+    subclass_names = ['Name']
+
+
+class Result_Name(Base):
+    subclass_names = ['Name']
+
+
+class Scalar_Variable_Name(Base):
+    subclass_names = ['Name']
+
+
+class Select_Construct_Name(Base):
+    subclass_names = ['Name']
+
+
+class Subroutine_Name(Base):
+    subclass_names = ['Name']
+
+
+class Type_Param_Name(Base):
+    subclass_names = ['Name']
+
+
+class Use_Name(Base):
+    subclass_names = ['Name']
+
+
+class Where_Construct_Name(Base):
+    subclass_names = ['Name']
+
+
+class Scalar_Char_Constant(Base):
+    subclass_names = ['Char_Constant']
+
+
+class Scalar_Char_Expr(Base):
+    subclass_names = ['Char_Expr']
+
+
+class Scalar_Constant(Base):
+    subclass_names = ['Constant']
+
+
+class Scalar_Constant_Subobject(Base):
+    subclass_names = ['Constant_Subobject']
+
+
+class Scalar_Default_Char_Expr(Base):
+    subclass_names = ['Default_Char_Expr']
+
+
+class Scalar_Default_Char_Variable(Base):
+    subclass_names = ['Default_Char_Variable']
+
+
+class Scalar_Default_Logical_Variable(Base):
+    subclass_names = ['Default_Logical_Variable']
+
+
+class Scalar_Expr(Base):
+    subclass_names = ['Expr']
+
+
+class Scalar_Int_Constant(Base):
+    subclass_names = ['Int_Constant']
+
+
+class Scalar_Int_Constant_Subobject(Base):
+    subclass_names = ['Int_Constant_Subobject']
+
+
+class Scalar_Int_Expr(Base):
+    subclass_names = ['Int_Expr']
+
+
+class Scalar_Int_Initialization_Expr(Base):
+    subclass_names = ['Int_Initialization_Expr']
+
+
+class Scalar_Int_Literal_Constant(Base):
+    subclass_names = ['Int_Literal_Constant']
+
+
+class Scalar_Int_Variable(Base):
+    subclass_names = ['Int_Variable']
+
+
+class Scalar_Logical_Expr(Base):
+    subclass_names = ['Logical_Expr']
+
+
+class Scalar_Logical_Initialization_Expr(Base):
+    subclass_names = ['Logical_Initialization_Expr']
+
+
+class Scalar_Mask_Expr(Base):
+    subclass_names = ['Mask_Expr']
+
+
+class Scalar_Numeric_Expr(Base):
+    subclass_names = ['Numeric_Expr']
+
+
+class Scalar_Structure_Component(Base):
+    subclass_names = ['Structure_Component']
 
 
 DynamicImport().import_now()
