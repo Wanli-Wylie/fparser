@@ -1,0 +1,14 @@
+class Intent_Attr_Spec(CALLBase):  # R503.f
+    """
+    ::
+
+        <intent-attr-spec> = INTENT ( <intent-spec> )
+
+    """
+
+    subclass_names = []
+    use_names = ["Intent_Spec"]
+
+    @staticmethod
+    def match(string):
+        return CALLBase.match("INTENT", Intent_Spec, string)

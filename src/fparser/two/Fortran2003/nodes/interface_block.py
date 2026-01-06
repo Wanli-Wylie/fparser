@@ -1,0 +1,17 @@
+class Interface_Block(BlockBase):  # R1201
+    """
+    ::
+
+        <interface-block> = <interface-stmt>
+                                [ <interface-specification> ]...
+                                <end-interface-stmt>
+    """
+
+    subclass_names = []
+    use_names = ["Interface_Stmt", "Interface_Specification", "End_Interface_Stmt"]
+
+    @staticmethod
+    def match(reader):
+        return BlockBase.match(
+            Interface_Stmt, [Interface_Specification], End_Interface_Stmt, reader
+        )
