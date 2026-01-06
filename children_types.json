@@ -1,0 +1,2563 @@
+{
+  "ac_do_variable.py:Ac_Do_Variable": {
+    "module": "ac_do_variable.py",
+    "class_name": "Ac_Do_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "ac_implied_do.py:Ac_Implied_Do": {
+    "module": "ac_implied_do.py",
+    "class_name": "Ac_Implied_Do",
+    "children_types": [
+      "Ac_Implied_Do_Control",
+      "Ac_Value_List"
+    ],
+    "children_patterns": [
+      "Tuple[Ac_Value_List, Ac_Implied_Do_Control]"
+    ],
+    "items_types": [
+      "Ac_Implied_Do_Control",
+      "Ac_Value_List"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "ac_implied_do_control.py:Ac_Implied_Do_Control": {
+    "module": "ac_implied_do_control.py",
+    "class_name": "Ac_Implied_Do_Control",
+    "children_types": [
+      "Ac_Do_Variable",
+      "var:exprn_list"
+    ],
+    "children_patterns": [
+      "Tuple[Ac_Do_Variable, var:exprn_list]"
+    ],
+    "items_types": [
+      "Ac_Do_Variable",
+      "var:exprn_list"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "ac_spec.py:Ac_Spec": {
+    "module": "ac_spec.py",
+    "class_name": "Ac_Spec",
+    "children_types": [
+      "Ac_Value_List",
+      "None",
+      "Type_Spec"
+    ],
+    "children_patterns": [
+      "Tuple[Type_Spec, Ac_Value_List]",
+      "Tuple[Type_Spec, None]"
+    ],
+    "items_types": [
+      "Ac_Value_List",
+      "None",
+      "Type_Spec"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "ac_value.py:Ac_Value": {
+    "module": "ac_value.py",
+    "class_name": "Ac_Value",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "access_id.py:Access_Id": {
+    "module": "access_id.py",
+    "class_name": "Access_Id",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "action_stmt.py:Action_Stmt": {
+    "module": "action_stmt.py",
+    "class_name": "Action_Stmt",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "action_stmt_c201.py:Action_Stmt_C201": {
+    "module": "action_stmt_c201.py",
+    "class_name": "Action_Stmt_C201",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "action_stmt_c802.py:Action_Stmt_C802": {
+    "module": "action_stmt_c802.py",
+    "class_name": "Action_Stmt_C802",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "action_stmt_c824.py:Action_Stmt_C824": {
+    "module": "action_stmt_c824.py",
+    "class_name": "Action_Stmt_C824",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "actual_arg.py:Actual_Arg": {
+    "module": "actual_arg.py",
+    "class_name": "Actual_Arg",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "allocate_object.py:Allocate_Object": {
+    "module": "allocate_object.py",
+    "class_name": "Allocate_Object",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "alt_return_spec.py:Alt_Return_Spec": {
+    "module": "alt_return_spec.py",
+    "class_name": "Alt_Return_Spec",
+    "children_types": [
+      "Label"
+    ],
+    "children_patterns": [
+      "Tuple[Label]"
+    ],
+    "items_types": [
+      "Label"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "array_element.py:Array_Element": {
+    "module": "array_element.py",
+    "class_name": "Array_Element",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "array_spec.py:Array_Spec": {
+    "module": "array_spec.py",
+    "class_name": "Array_Spec",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "assumed_size_spec.py:Assumed_Size_Spec": {
+    "module": "assumed_size_spec.py",
+    "class_name": "Assumed_Size_Spec",
+    "children_types": [
+      "Explicit_Shape_Spec_List",
+      "Lower_Bound",
+      "None"
+    ],
+    "children_patterns": [
+      "Tuple[Explicit_Shape_Spec_List, Lower_Bound]",
+      "Tuple[Explicit_Shape_Spec_List, None]",
+      "Tuple[None, Lower_Bound]",
+      "Tuple[None, None]"
+    ],
+    "items_types": [
+      "Explicit_Shape_Spec_List",
+      "Lower_Bound",
+      "None"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "block_do_construct.py:Block_Do_Construct": {
+    "module": "block_do_construct.py",
+    "class_name": "Block_Do_Construct",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "boz_literal_constant.py:Boz_Literal_Constant": {
+    "module": "boz_literal_constant.py",
+    "class_name": "Boz_Literal_Constant",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "case_expr.py:Case_Expr": {
+    "module": "case_expr.py",
+    "class_name": "Case_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "case_selector.py:Case_Selector": {
+    "module": "case_selector.py",
+    "class_name": "Case_Selector",
+    "children_types": [
+      "Case_Value_Range_List",
+      "None"
+    ],
+    "children_patterns": [
+      "Tuple[Case_Value_Range_List]",
+      "Tuple[None]"
+    ],
+    "items_types": [
+      "Case_Value_Range_List",
+      "None"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "case_value.py:Case_Value": {
+    "module": "case_value.py",
+    "class_name": "Case_Value",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "char_constant.py:Char_Constant": {
+    "module": "char_constant.py",
+    "class_name": "Char_Constant",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "char_constant.py:Scalar_Char_Constant": {
+    "module": "char_constant.py",
+    "class_name": "Scalar_Char_Constant",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "char_expr.py:Char_Expr": {
+    "module": "char_expr.py",
+    "class_name": "Char_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "char_expr.py:Scalar_Char_Expr": {
+    "module": "char_expr.py",
+    "class_name": "Scalar_Char_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "char_initialization_expr.py:Char_Initialization_Expr": {
+    "module": "char_initialization_expr.py",
+    "class_name": "Char_Initialization_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "char_literal_constant.py:Char_Literal_Constant": {
+    "module": "char_literal_constant.py",
+    "class_name": "Char_Literal_Constant",
+    "children_types": [
+      "var:kind_param",
+      "var:line"
+    ],
+    "children_patterns": [
+      "Tuple[var:line, var:kind_param]"
+    ],
+    "items_types": [
+      "var:kind_param",
+      "var:line"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "char_selector.py:Char_Selector": {
+    "module": "char_selector.py",
+    "class_name": "Char_Selector",
+    "children_types": [
+      "None",
+      "Scalar_Int_Initialization_Expr",
+      "Type_Param_Value"
+    ],
+    "children_patterns": [
+      "Tuple[None, Scalar_Int_Initialization_Expr]",
+      "Tuple[Type_Param_Value, Scalar_Int_Initialization_Expr]"
+    ],
+    "items_types": [
+      "None",
+      "Scalar_Int_Initialization_Expr",
+      "Type_Param_Value"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "char_string_edit_desc.py:Char_String_Edit_Desc": {
+    "module": "char_string_edit_desc.py",
+    "class_name": "Char_String_Edit_Desc",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "char_variable.py:Char_Variable": {
+    "module": "char_variable.py",
+    "class_name": "Char_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "comment.py:Comment": {
+    "module": "comment.py",
+    "class_name": "Comment",
+    "children_types": [
+      "attr:comment"
+    ],
+    "children_patterns": [
+      "List[attr:comment]"
+    ],
+    "items_types": [
+      "attr:comment"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "complex_literal_constant.py:Complex_Literal_Constant": {
+    "module": "complex_literal_constant.py",
+    "class_name": "Complex_Literal_Constant",
+    "children_types": [
+      "Imag_Part",
+      "Real_Part"
+    ],
+    "children_patterns": [
+      "Tuple[Real_Part, Imag_Part]"
+    ],
+    "items_types": [
+      "Imag_Part",
+      "Real_Part"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "component_array_spec.py:Component_Array_Spec": {
+    "module": "component_array_spec.py",
+    "class_name": "Component_Array_Spec",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "component_data_source.py:Component_Data_Source": {
+    "module": "component_data_source.py",
+    "class_name": "Component_Data_Source",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "component_decl.py:Component_Decl": {
+    "module": "component_decl.py",
+    "class_name": "Component_Decl",
+    "children_types": [
+      "None",
+      "var:array_spec",
+      "var:char_length",
+      "var:init",
+      "var:name"
+    ],
+    "children_patterns": [
+      "Tuple[var:name, None, None, None]",
+      "Tuple[var:name, var:array_spec, var:char_length, var:init]"
+    ],
+    "items_types": [
+      "None",
+      "var:array_spec",
+      "var:char_length",
+      "var:init",
+      "var:name"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "component_def_stmt.py:Component_Def_Stmt": {
+    "module": "component_def_stmt.py",
+    "class_name": "Component_Def_Stmt",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "component_initialization.py:Component_Initialization": {
+    "module": "component_initialization.py",
+    "class_name": "Component_Initialization",
+    "children_types": [
+      "Initialization_Expr",
+      "Null_Init",
+      "str"
+    ],
+    "children_patterns": [
+      "Tuple[str, Initialization_Expr]",
+      "Tuple[str, Null_Init]"
+    ],
+    "items_types": [
+      "Initialization_Expr",
+      "Null_Init",
+      "str"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "constant.py:Constant": {
+    "module": "constant.py",
+    "class_name": "Constant",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "constant.py:Scalar_Constant": {
+    "module": "constant.py",
+    "class_name": "Scalar_Constant",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "constant_subobject.py:Constant_Subobject": {
+    "module": "constant_subobject.py",
+    "class_name": "Constant_Subobject",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "constant_subobject.py:Scalar_Constant_Subobject": {
+    "module": "constant_subobject.py",
+    "class_name": "Scalar_Constant_Subobject",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "control_edit_desc.py:Control_Edit_Desc": {
+    "module": "control_edit_desc.py",
+    "class_name": "Control_Edit_Desc",
+    "children_types": [
+      "K",
+      "None",
+      "R",
+      "str",
+      "var:strip_string"
+    ],
+    "children_patterns": [
+      "Tuple[K, str]",
+      "Tuple[None, var:strip_string]",
+      "Tuple[R, str]"
+    ],
+    "items_types": [
+      "K",
+      "None",
+      "R",
+      "str",
+      "var:strip_string"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "cray_pointee_array_spec.py:Cray_Pointee_Array_Spec": {
+    "module": "cray_pointee_array_spec.py",
+    "class_name": "Cray_Pointee_Array_Spec",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "cray_pointer_decl.py:Cray_Pointer_Decl": {
+    "module": "cray_pointer_decl.py",
+    "class_name": "Cray_Pointer_Decl",
+    "children_types": [
+      "Cray_Pointee_Decl",
+      "Cray_Pointee_Name",
+      "Cray_Pointer_Name"
+    ],
+    "children_patterns": [
+      "Tuple[Cray_Pointer_Name, Cray_Pointee_Decl]",
+      "Tuple[Cray_Pointer_Name, Cray_Pointee_Name]"
+    ],
+    "items_types": [
+      "Cray_Pointee_Decl",
+      "Cray_Pointee_Name",
+      "Cray_Pointer_Name"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "d.py:D": {
+    "module": "d.py",
+    "class_name": "D",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "data_edit_desc.py:Data_Edit_Desc": {
+    "module": "data_edit_desc.py",
+    "class_name": "Data_Edit_Desc",
+    "children_types": [
+      "Char_Literal_Constant",
+      "Int_Literal_Constant",
+      "M",
+      "None",
+      "W",
+      "var:c",
+      "var:lst"
+    ],
+    "children_patterns": [
+      "Tuple[var:c, Char_Literal_Constant, var:lst, None]",
+      "Tuple[var:c, None, None, None]",
+      "Tuple[var:c, None, var:lst, None]",
+      "Tuple[var:c, W, M, None, Int_Literal_Constant]",
+      "Tuple[var:c, W, None, None]"
+    ],
+    "items_types": [
+      "Char_Literal_Constant",
+      "Int_Literal_Constant",
+      "M",
+      "None",
+      "W",
+      "var:c",
+      "var:lst"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "data_edit_desc_c1002.py:Data_Edit_Desc_C1002": {
+    "module": "data_edit_desc_c1002.py",
+    "class_name": "Data_Edit_Desc_C1002",
+    "children_types": [
+      "D",
+      "E",
+      "None",
+      "W",
+      "unknown",
+      "var:char"
+    ],
+    "children_patterns": [
+      "Tuple[unknown, W, D, E]",
+      "Tuple[unknown, W, D, None]",
+      "Tuple[var:char, W, D, None]"
+    ],
+    "items_types": [
+      "D",
+      "E",
+      "None",
+      "W",
+      "unknown",
+      "var:char"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "data_i_do_object.py:Data_I_Do_Object": {
+    "module": "data_i_do_object.py",
+    "class_name": "Data_I_Do_Object",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "data_i_do_variable.py:Data_I_Do_Variable": {
+    "module": "data_i_do_variable.py",
+    "class_name": "Data_I_Do_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "data_implied_do.py:Data_Implied_Do": {
+    "module": "data_implied_do.py",
+    "class_name": "Data_Implied_Do",
+    "children_types": [
+      "var:data_i_do_object_list",
+      "var:data_i_do_variable",
+      "var:scalar_int_expr1",
+      "var:scalar_int_expr2",
+      "var:scalar_int_expr3"
+    ],
+    "children_patterns": [
+      "Tuple[var:data_i_do_object_list, var:data_i_do_variable, var:scalar_int_expr1, var:scalar_int_expr2, var:scalar_int_expr3]"
+    ],
+    "items_types": [
+      "var:data_i_do_object_list",
+      "var:data_i_do_variable",
+      "var:scalar_int_expr1",
+      "var:scalar_int_expr2",
+      "var:scalar_int_expr3"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "data_stmt_constant.py:Data_Stmt_Constant": {
+    "module": "data_stmt_constant.py",
+    "class_name": "Data_Stmt_Constant",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "data_stmt_object.py:Data_Stmt_Object": {
+    "module": "data_stmt_object.py",
+    "class_name": "Data_Stmt_Object",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "data_stmt_repeat.py:Data_Stmt_Repeat": {
+    "module": "data_stmt_repeat.py",
+    "class_name": "Data_Stmt_Repeat",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "data_stmt_set.py:Data_Stmt_Set": {
+    "module": "data_stmt_set.py",
+    "class_name": "Data_Stmt_Set",
+    "children_types": [
+      "var:data_stmt_object_list",
+      "var:data_stmt_value_list"
+    ],
+    "children_patterns": [
+      "Tuple[var:data_stmt_object_list, var:data_stmt_value_list]"
+    ],
+    "items_types": [
+      "var:data_stmt_object_list",
+      "var:data_stmt_value_list"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "data_stmt_value.py:Data_Stmt_Value": {
+    "module": "data_stmt_value.py",
+    "class_name": "Data_Stmt_Value",
+    "children_types": [
+      "Data_Stmt_Constant",
+      "Data_Stmt_Repeat"
+    ],
+    "children_patterns": [
+      "Tuple[Data_Stmt_Repeat, Data_Stmt_Constant]"
+    ],
+    "items_types": [
+      "Data_Stmt_Constant",
+      "Data_Stmt_Repeat"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "data_target.py:Data_Target": {
+    "module": "data_target.py",
+    "class_name": "Data_Target",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "declaration_construct.py:Declaration_Construct": {
+    "module": "declaration_construct.py",
+    "class_name": "Declaration_Construct",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "declaration_type_spec.py:Declaration_Type_Spec": {
+    "module": "declaration_type_spec.py",
+    "class_name": "Declaration_Type_Spec",
+    "children_types": [
+      "Derived_Type_Spec",
+      "str"
+    ],
+    "children_patterns": [
+      "Tuple[str, Derived_Type_Spec]",
+      "Tuple[str, str]"
+    ],
+    "items_types": [
+      "Derived_Type_Spec",
+      "str"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "default_char_expr.py:Default_Char_Expr": {
+    "module": "default_char_expr.py",
+    "class_name": "Default_Char_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "default_char_expr.py:Scalar_Default_Char_Expr": {
+    "module": "default_char_expr.py",
+    "class_name": "Scalar_Default_Char_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "default_char_variable.py:Default_Char_Variable": {
+    "module": "default_char_variable.py",
+    "class_name": "Default_Char_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "default_char_variable.py:Scalar_Default_Char_Variable": {
+    "module": "default_char_variable.py",
+    "class_name": "Scalar_Default_Char_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "default_logical_variable.py:Default_Logical_Variable": {
+    "module": "default_logical_variable.py",
+    "class_name": "Default_Logical_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "default_logical_variable.py:Scalar_Default_Logical_Variable": {
+    "module": "default_logical_variable.py",
+    "class_name": "Scalar_Default_Logical_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "defined_binary_op.py:Defined_Binary_Op": {
+    "module": "defined_binary_op.py",
+    "class_name": "Defined_Binary_Op",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "defined_operator.py:Defined_Operator": {
+    "module": "defined_operator.py",
+    "class_name": "Defined_Operator",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "defined_unary_op.py:Defined_Unary_Op": {
+    "module": "defined_unary_op.py",
+    "class_name": "Defined_Unary_Op",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "designator.py:Designator": {
+    "module": "designator.py",
+    "class_name": "Designator",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "directive.py:Directive": {
+    "module": "directive.py",
+    "class_name": "Directive",
+    "children_types": [
+      "attr:comment"
+    ],
+    "children_patterns": [
+      "List[attr:comment]"
+    ],
+    "items_types": [
+      "attr:comment"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "do_construct.py:Do_Construct": {
+    "module": "do_construct.py",
+    "class_name": "Do_Construct",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "do_stmt.py:Do_Stmt": {
+    "module": "do_stmt.py",
+    "class_name": "Do_Stmt",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "do_variable.py:Do_Variable": {
+    "module": "do_variable.py",
+    "class_name": "Do_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "dtio_generic_spec.py:Dtio_Generic_Spec": {
+    "module": "dtio_generic_spec.py",
+    "class_name": "Dtio_Generic_Spec",
+    "children_types": [
+      "unknown"
+    ],
+    "children_patterns": [
+      "Tuple[unknown]"
+    ],
+    "items_types": [
+      "unknown"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "dummy_arg_name.py:Dummy_Arg_Name": {
+    "module": "dummy_arg_name.py",
+    "class_name": "Dummy_Arg_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "e.py:E": {
+    "module": "e.py",
+    "class_name": "E",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "end_do.py:End_Do": {
+    "module": "end_do.py",
+    "class_name": "End_Do",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "entity_decl.py:Entity_Decl": {
+    "module": "entity_decl.py",
+    "class_name": "Entity_Decl",
+    "children_types": [
+      "None",
+      "var:array_spec",
+      "var:char_length",
+      "var:init",
+      "var:name"
+    ],
+    "children_patterns": [
+      "Tuple[var:name, None, None, None]",
+      "Tuple[var:name, var:array_spec, None, None]",
+      "Tuple[var:name, var:array_spec, var:char_length, var:init]"
+    ],
+    "items_types": [
+      "None",
+      "var:array_spec",
+      "var:char_length",
+      "var:init",
+      "var:name"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "equivalence_object.py:Equivalence_Object": {
+    "module": "equivalence_object.py",
+    "class_name": "Equivalence_Object",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "equivalence_set.py:Equivalence_Set": {
+    "module": "equivalence_set.py",
+    "class_name": "Equivalence_Set",
+    "children_types": [
+      "var:obj",
+      "var:tmp"
+    ],
+    "children_patterns": [
+      "Tuple[var:obj, var:tmp]"
+    ],
+    "items_types": [
+      "var:obj",
+      "var:tmp"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "errmsg_variable.py:Errmsg_Variable": {
+    "module": "errmsg_variable.py",
+    "class_name": "Errmsg_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "executable_construct.py:Executable_Construct": {
+    "module": "executable_construct.py",
+    "class_name": "Executable_Construct",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "executable_construct_c201.py:Executable_Construct_C201": {
+    "module": "executable_construct_c201.py",
+    "class_name": "Executable_Construct_C201",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "execution_part_construct.py:Execution_Part_Construct": {
+    "module": "execution_part_construct.py",
+    "class_name": "Execution_Part_Construct",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "execution_part_construct_c201.py:Execution_Part_Construct_C201": {
+    "module": "execution_part_construct_c201.py",
+    "class_name": "Execution_Part_Construct_C201",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "expr.py:Scalar_Expr": {
+    "module": "expr.py",
+    "class_name": "Scalar_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "external_subprogram.py:External_Subprogram": {
+    "module": "external_subprogram.py",
+    "class_name": "External_Subprogram",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "file_name_expr.py:File_Name_Expr": {
+    "module": "file_name_expr.py",
+    "class_name": "File_Name_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "file_unit_number.py:File_Unit_Number": {
+    "module": "file_unit_number.py",
+    "class_name": "File_Unit_Number",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "forall_assignment_stmt.py:Forall_Assignment_Stmt": {
+    "module": "forall_assignment_stmt.py",
+    "class_name": "Forall_Assignment_Stmt",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "forall_body_construct.py:Forall_Body_Construct": {
+    "module": "forall_body_construct.py",
+    "class_name": "Forall_Body_Construct",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "forall_header.py:Forall_Header": {
+    "module": "forall_header.py",
+    "class_name": "Forall_Header",
+    "children_types": [
+      "Forall_Triplet_Spec_List",
+      "None",
+      "Scalar_Mask_Expr"
+    ],
+    "children_patterns": [
+      "Tuple[Forall_Triplet_Spec_List, None]",
+      "Tuple[Forall_Triplet_Spec_List, Scalar_Mask_Expr]"
+    ],
+    "items_types": [
+      "Forall_Triplet_Spec_List",
+      "None",
+      "Scalar_Mask_Expr"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "forall_triplet_spec.py:Forall_Triplet_Spec": {
+    "module": "forall_triplet_spec.py",
+    "class_name": "Forall_Triplet_Spec",
+    "children_types": [
+      "None",
+      "Stride",
+      "Subscript",
+      "var:n"
+    ],
+    "children_patterns": [
+      "Tuple[var:n, Subscript, Subscript, None]",
+      "Tuple[var:n, Subscript, Subscript, Stride]"
+    ],
+    "items_types": [
+      "None",
+      "Stride",
+      "Subscript",
+      "var:n"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "format_item.py:Format_Item": {
+    "module": "format_item.py",
+    "class_name": "Format_Item",
+    "children_types": [
+      "var:rest",
+      "var:rpart"
+    ],
+    "children_patterns": [
+      "Tuple[var:rpart, var:rest]"
+    ],
+    "items_types": [
+      "var:rest",
+      "var:rpart"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "format_item_c1002.py:Format_Item_C1002": {
+    "module": "format_item_c1002.py",
+    "class_name": "Format_Item_C1002",
+    "children_types": [
+      "Control_Edit_Desc",
+      "Format_Item",
+      "var:lhs",
+      "var:rhs"
+    ],
+    "children_patterns": [
+      "Tuple[Control_Edit_Desc, Format_Item]",
+      "Tuple[Format_Item, Control_Edit_Desc]",
+      "Tuple[Format_Item, Format_Item]",
+      "Tuple[var:lhs, var:rhs]"
+    ],
+    "items_types": [
+      "Control_Edit_Desc",
+      "Format_Item",
+      "var:lhs",
+      "var:rhs"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "generic_spec.py:Generic_Spec": {
+    "module": "generic_spec.py",
+    "class_name": "Generic_Spec",
+    "children_types": [
+      "Defined_Operator",
+      "str"
+    ],
+    "children_patterns": [
+      "Tuple[str, Defined_Operator]",
+      "Tuple[str, str]"
+    ],
+    "items_types": [
+      "Defined_Operator",
+      "str"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "hollerith_item.py:Hollerith_Item": {
+    "module": "hollerith_item.py",
+    "class_name": "Hollerith_Item",
+    "children_types": [
+      "unknown"
+    ],
+    "children_patterns": [
+      "Tuple[unknown]"
+    ],
+    "items_types": [
+      "unknown"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "imag_part.py:Imag_Part": {
+    "module": "imag_part.py",
+    "class_name": "Imag_Part",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "implicit_part_stmt.py:Implicit_Part_Stmt": {
+    "module": "implicit_part_stmt.py",
+    "class_name": "Implicit_Part_Stmt",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "include_stmt.py:Include_Stmt": {
+    "module": "include_stmt.py",
+    "class_name": "Include_Stmt",
+    "children_types": [
+      "var:name"
+    ],
+    "children_patterns": [
+      "Tuple[var:name]"
+    ],
+    "items_types": [
+      "var:name"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "initialization.py:Initialization": {
+    "module": "initialization.py",
+    "class_name": "Initialization",
+    "children_types": [
+      "Initialization_Expr",
+      "Null_Init",
+      "str"
+    ],
+    "children_patterns": [
+      "Tuple[str, Initialization_Expr]",
+      "Tuple[str, Null_Init]"
+    ],
+    "items_types": [
+      "Initialization_Expr",
+      "Null_Init",
+      "str"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "initialization_expr.py:Initialization_Expr": {
+    "module": "initialization_expr.py",
+    "class_name": "Initialization_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "input_item.py:Input_Item": {
+    "module": "input_item.py",
+    "class_name": "Input_Item",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "int_constant.py:Int_Constant": {
+    "module": "int_constant.py",
+    "class_name": "Int_Constant",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "int_constant.py:Scalar_Int_Constant": {
+    "module": "int_constant.py",
+    "class_name": "Scalar_Int_Constant",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "int_constant_subobject.py:Int_Constant_Subobject": {
+    "module": "int_constant_subobject.py",
+    "class_name": "Int_Constant_Subobject",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "int_constant_subobject.py:Scalar_Int_Constant_Subobject": {
+    "module": "int_constant_subobject.py",
+    "class_name": "Scalar_Int_Constant_Subobject",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "int_expr.py:Int_Expr": {
+    "module": "int_expr.py",
+    "class_name": "Int_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "int_expr.py:Scalar_Int_Expr": {
+    "module": "int_expr.py",
+    "class_name": "Scalar_Int_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "int_initialization_expr.py:Int_Initialization_Expr": {
+    "module": "int_initialization_expr.py",
+    "class_name": "Int_Initialization_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "int_initialization_expr.py:Scalar_Int_Initialization_Expr": {
+    "module": "int_initialization_expr.py",
+    "class_name": "Scalar_Int_Initialization_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "int_literal_constant.py:Scalar_Int_Literal_Constant": {
+    "module": "int_literal_constant.py",
+    "class_name": "Scalar_Int_Literal_Constant",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "int_variable.py:Int_Variable": {
+    "module": "int_variable.py",
+    "class_name": "Int_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "int_variable.py:Scalar_Int_Variable": {
+    "module": "int_variable.py",
+    "class_name": "Scalar_Int_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "interface_body.py:Interface_Body": {
+    "module": "interface_body.py",
+    "class_name": "Interface_Body",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "interface_name.py:Interface_Name": {
+    "module": "interface_name.py",
+    "class_name": "Interface_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "interface_specification.py:Interface_Specification": {
+    "module": "interface_specification.py",
+    "class_name": "Interface_Specification",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "internal_file_variable.py:Internal_File_Variable": {
+    "module": "internal_file_variable.py",
+    "class_name": "Internal_File_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "internal_subprogram.py:Internal_Subprogram": {
+    "module": "internal_subprogram.py",
+    "class_name": "Internal_Subprogram",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "io_implied_do.py:Io_Implied_Do": {
+    "module": "io_implied_do.py",
+    "class_name": "Io_Implied_Do",
+    "children_types": [
+      "Io_Implied_Do_Control",
+      "Io_Implied_Do_Object_List"
+    ],
+    "children_patterns": [
+      "Tuple[Io_Implied_Do_Object_List, Io_Implied_Do_Control]"
+    ],
+    "items_types": [
+      "Io_Implied_Do_Control",
+      "Io_Implied_Do_Object_List"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "io_implied_do_control.py:Io_Implied_Do_Control": {
+    "module": "io_implied_do_control.py",
+    "class_name": "Io_Implied_Do_Control",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "io_implied_do_object.py:Io_Implied_Do_Object": {
+    "module": "io_implied_do_object.py",
+    "class_name": "Io_Implied_Do_Object",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "iomsg_variable.py:Iomsg_Variable": {
+    "module": "iomsg_variable.py",
+    "class_name": "Iomsg_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "k.py:K": {
+    "module": "k.py",
+    "class_name": "K",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "keyword.py:Keyword": {
+    "module": "keyword.py",
+    "class_name": "Keyword",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "kind_selector.py:Kind_Selector": {
+    "module": "kind_selector.py",
+    "class_name": "Kind_Selector",
+    "children_types": [
+      "Char_Length",
+      "Scalar_Int_Initialization_Expr",
+      "str"
+    ],
+    "children_patterns": [
+      "Tuple[str, Char_Length]",
+      "Tuple[str, Scalar_Int_Initialization_Expr, str]"
+    ],
+    "items_types": [
+      "Char_Length",
+      "Scalar_Int_Initialization_Expr",
+      "str"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "language_binding_spec.py:Language_Binding_Spec": {
+    "module": "language_binding_spec.py",
+    "class_name": "Language_Binding_Spec",
+    "children_types": [
+      "None",
+      "Scalar_Char_Initialization_Expr"
+    ],
+    "children_patterns": [
+      "Tuple[None]",
+      "Tuple[Scalar_Char_Initialization_Expr]"
+    ],
+    "items_types": [
+      "None",
+      "Scalar_Char_Initialization_Expr"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "length_selector.py:Length_Selector": {
+    "module": "length_selector.py",
+    "class_name": "Length_Selector",
+    "children_types": [
+      "Char_Length",
+      "Type_Param_Value",
+      "str"
+    ],
+    "children_patterns": [
+      "Tuple[str, Char_Length]",
+      "Tuple[str, Type_Param_Value, str]"
+    ],
+    "items_types": [
+      "Char_Length",
+      "Type_Param_Value",
+      "str"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "letter_spec.py:Letter_Spec": {
+    "module": "letter_spec.py",
+    "class_name": "Letter_Spec",
+    "children_types": [
+      "None",
+      "var:lhs",
+      "var:rhs"
+    ],
+    "children_patterns": [
+      "Tuple[var:lhs, None]",
+      "Tuple[var:lhs, var:rhs]"
+    ],
+    "items_types": [
+      "None",
+      "var:lhs",
+      "var:rhs"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "literal_constant.py:Literal_Constant": {
+    "module": "literal_constant.py",
+    "class_name": "Literal_Constant",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "local_defined_operator.py:Local_Defined_Operator": {
+    "module": "local_defined_operator.py",
+    "class_name": "Local_Defined_Operator",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "logical_expr.py:Logical_Expr": {
+    "module": "logical_expr.py",
+    "class_name": "Logical_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "logical_expr.py:Scalar_Logical_Expr": {
+    "module": "logical_expr.py",
+    "class_name": "Scalar_Logical_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "logical_initialization_expr.py:Logical_Initialization_Expr": {
+    "module": "logical_initialization_expr.py",
+    "class_name": "Logical_Initialization_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "logical_initialization_expr.py:Scalar_Logical_Initialization_Expr": {
+    "module": "logical_initialization_expr.py",
+    "class_name": "Scalar_Logical_Initialization_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "logical_variable.py:Logical_Variable": {
+    "module": "logical_variable.py",
+    "class_name": "Logical_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "loop_control.py:Loop_Control": {
+    "module": "loop_control.py",
+    "class_name": "Loop_Control",
+    "children_types": [
+      "None",
+      "var:counter_expr",
+      "var:optional_delim",
+      "var:scalar_logical_expr"
+    ],
+    "children_patterns": [
+      "Tuple[None, var:counter_expr, var:optional_delim]",
+      "Tuple[var:scalar_logical_expr, None, var:optional_delim]"
+    ],
+    "items_types": [
+      "None",
+      "var:counter_expr",
+      "var:optional_delim",
+      "var:scalar_logical_expr"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "lower_bound.py:Lower_Bound": {
+    "module": "lower_bound.py",
+    "class_name": "Lower_Bound",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "lower_bound_expr.py:Lower_Bound_Expr": {
+    "module": "lower_bound_expr.py",
+    "class_name": "Lower_Bound_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "m.py:M": {
+    "module": "m.py",
+    "class_name": "M",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "mask_expr.py:Mask_Expr": {
+    "module": "mask_expr.py",
+    "class_name": "Mask_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "mask_expr.py:Scalar_Mask_Expr": {
+    "module": "mask_expr.py",
+    "class_name": "Scalar_Mask_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "module_subprogram.py:Module_Subprogram": {
+    "module": "module_subprogram.py",
+    "class_name": "Module_Subprogram",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "n.py:N": {
+    "module": "n.py",
+    "class_name": "N",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Arg_Name": {
+    "module": "name.py",
+    "class_name": "Arg_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Array_Name": {
+    "module": "name.py",
+    "class_name": "Array_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Associate_Construct_Name": {
+    "module": "name.py",
+    "class_name": "Associate_Construct_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Associate_Name": {
+    "module": "name.py",
+    "class_name": "Associate_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Binding_Name": {
+    "module": "name.py",
+    "class_name": "Binding_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Block_Data_Name": {
+    "module": "name.py",
+    "class_name": "Block_Data_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Case_Construct_Name": {
+    "module": "name.py",
+    "class_name": "Case_Construct_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Common_Block_Name": {
+    "module": "name.py",
+    "class_name": "Common_Block_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Component_Name": {
+    "module": "name.py",
+    "class_name": "Component_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Cray_Pointee_Name": {
+    "module": "name.py",
+    "class_name": "Cray_Pointee_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Cray_Pointer_Name": {
+    "module": "name.py",
+    "class_name": "Cray_Pointer_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Data_Pointer_Component_Name": {
+    "module": "name.py",
+    "class_name": "Data_Pointer_Component_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Do_Construct_Name": {
+    "module": "name.py",
+    "class_name": "Do_Construct_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Entity_Name": {
+    "module": "name.py",
+    "class_name": "Entity_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Entry_Name": {
+    "module": "name.py",
+    "class_name": "Entry_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Forall_Construct_Name": {
+    "module": "name.py",
+    "class_name": "Forall_Construct_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Function_Name": {
+    "module": "name.py",
+    "class_name": "Function_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Generic_Name": {
+    "module": "name.py",
+    "class_name": "Generic_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:If_Construct_Name": {
+    "module": "name.py",
+    "class_name": "If_Construct_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Index_Name": {
+    "module": "name.py",
+    "class_name": "Index_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Local_Name": {
+    "module": "name.py",
+    "class_name": "Local_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Module_Name": {
+    "module": "name.py",
+    "class_name": "Module_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Namelist_Group_Name": {
+    "module": "name.py",
+    "class_name": "Namelist_Group_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Parent_Type_Name": {
+    "module": "name.py",
+    "class_name": "Parent_Type_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Part_Name": {
+    "module": "name.py",
+    "class_name": "Part_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Proc_Entity_Name": {
+    "module": "name.py",
+    "class_name": "Proc_Entity_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Procedure_Component_Name": {
+    "module": "name.py",
+    "class_name": "Procedure_Component_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Procedure_Entity_Name": {
+    "module": "name.py",
+    "class_name": "Procedure_Entity_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Procedure_Name": {
+    "module": "name.py",
+    "class_name": "Procedure_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Program_Name": {
+    "module": "name.py",
+    "class_name": "Program_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Result_Name": {
+    "module": "name.py",
+    "class_name": "Result_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Scalar_Variable_Name": {
+    "module": "name.py",
+    "class_name": "Scalar_Variable_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Select_Construct_Name": {
+    "module": "name.py",
+    "class_name": "Select_Construct_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Subroutine_Name": {
+    "module": "name.py",
+    "class_name": "Subroutine_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Type_Param_Name": {
+    "module": "name.py",
+    "class_name": "Type_Param_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Use_Name": {
+    "module": "name.py",
+    "class_name": "Use_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "name.py:Where_Construct_Name": {
+    "module": "name.py",
+    "class_name": "Where_Construct_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "named_constant.py:Named_Constant": {
+    "module": "named_constant.py",
+    "class_name": "Named_Constant",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "namelist_group_object.py:Namelist_Group_Object": {
+    "module": "namelist_group_object.py",
+    "class_name": "Namelist_Group_Object",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "nonblock_do_construct.py:Nonblock_Do_Construct": {
+    "module": "nonblock_do_construct.py",
+    "class_name": "Nonblock_Do_Construct",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "numeric_expr.py:Numeric_Expr": {
+    "module": "numeric_expr.py",
+    "class_name": "Numeric_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "numeric_expr.py:Scalar_Numeric_Expr": {
+    "module": "numeric_expr.py",
+    "class_name": "Scalar_Numeric_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "object_name.py:Object_Name": {
+    "module": "object_name.py",
+    "class_name": "Object_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "only.py:Only": {
+    "module": "only.py",
+    "class_name": "Only",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "only_use_name.py:Only_Use_Name": {
+    "module": "only_use_name.py",
+    "class_name": "Only_Use_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "output_item.py:Output_Item": {
+    "module": "output_item.py",
+    "class_name": "Output_Item",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "parent_string.py:Parent_String": {
+    "module": "parent_string.py",
+    "class_name": "Parent_String",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "pointer_object.py:Pointer_Object": {
+    "module": "pointer_object.py",
+    "class_name": "Pointer_Object",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "position_edit_desc.py:Position_Edit_Desc": {
+    "module": "position_edit_desc.py",
+    "class_name": "Position_Edit_Desc",
+    "children_types": [
+      "None",
+      "str",
+      "var:number_obj",
+      "var:start"
+    ],
+    "children_patterns": [
+      "Tuple[None, str]",
+      "Tuple[var:number_obj, str]",
+      "Tuple[var:start, var:number_obj]"
+    ],
+    "items_types": [
+      "None",
+      "str",
+      "var:number_obj",
+      "var:start"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "primary.py:Primary": {
+    "module": "primary.py",
+    "class_name": "Primary",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "private_or_sequence.py:Private_Or_Sequence": {
+    "module": "private_or_sequence.py",
+    "class_name": "Private_Or_Sequence",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "proc_attr_spec.py:Proc_Attr_Spec": {
+    "module": "proc_attr_spec.py",
+    "class_name": "Proc_Attr_Spec",
+    "children_types": [
+      "Intent_Spec",
+      "None",
+      "str"
+    ],
+    "children_patterns": [
+      "Tuple[str, Intent_Spec]",
+      "Tuple[str, None]"
+    ],
+    "items_types": [
+      "Intent_Spec",
+      "None",
+      "str"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "proc_binding_stmt.py:Proc_Binding_Stmt": {
+    "module": "proc_binding_stmt.py",
+    "class_name": "Proc_Binding_Stmt",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "proc_interface.py:Proc_Interface": {
+    "module": "proc_interface.py",
+    "class_name": "Proc_Interface",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "proc_language_binding_spec.py:Proc_Language_Binding_Spec": {
+    "module": "proc_language_binding_spec.py",
+    "class_name": "Proc_Language_Binding_Spec",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "proc_pointer_name.py:Proc_Pointer_Name": {
+    "module": "proc_pointer_name.py",
+    "class_name": "Proc_Pointer_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "proc_pointer_object.py:Proc_Pointer_Object": {
+    "module": "proc_pointer_object.py",
+    "class_name": "Proc_Pointer_Object",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "proc_target.py:Proc_Target": {
+    "module": "proc_target.py",
+    "class_name": "Proc_Target",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "program_unit.py:Program_Unit": {
+    "module": "program_unit.py",
+    "class_name": "Program_Unit",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "r.py:R": {
+    "module": "r.py",
+    "class_name": "R",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "real_part.py:Real_Part": {
+    "module": "real_part.py",
+    "class_name": "Real_Part",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "rename.py:Rename": {
+    "module": "rename.py",
+    "class_name": "Rename",
+    "children_types": [
+      "Local_Defined_Operator",
+      "Local_Name",
+      "None",
+      "Use_Defined_Operator",
+      "Use_Name",
+      "str"
+    ],
+    "children_patterns": [
+      "Tuple[None, Local_Name, Use_Name]",
+      "Tuple[str, Local_Defined_Operator, Use_Defined_Operator]"
+    ],
+    "items_types": [
+      "Local_Defined_Operator",
+      "Local_Name",
+      "None",
+      "Use_Defined_Operator",
+      "Use_Name",
+      "str"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "scalar_char_initialization_expr.py:Scalar_Char_Initialization_Expr": {
+    "module": "scalar_char_initialization_expr.py",
+    "class_name": "Scalar_Char_Initialization_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "section_subscript.py:Section_Subscript": {
+    "module": "section_subscript.py",
+    "class_name": "Section_Subscript",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "selector.py:Selector": {
+    "module": "selector.py",
+    "class_name": "Selector",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "shared_term_do_construct.py:Shared_Term_Do_Construct": {
+    "module": "shared_term_do_construct.py",
+    "class_name": "Shared_Term_Do_Construct",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "source_expr.py:Source_Expr": {
+    "module": "source_expr.py",
+    "class_name": "Source_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "specification_expr.py:Specification_Expr": {
+    "module": "specification_expr.py",
+    "class_name": "Specification_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "specification_stmt.py:Specification_Stmt": {
+    "module": "specification_stmt.py",
+    "class_name": "Specification_Stmt",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "stat_variable.py:Stat_Variable": {
+    "module": "stat_variable.py",
+    "class_name": "Stat_Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "stride.py:Stride": {
+    "module": "stride.py",
+    "class_name": "Stride",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "structure_component.py:Scalar_Structure_Component": {
+    "module": "structure_component.py",
+    "class_name": "Scalar_Structure_Component",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "structure_component.py:Structure_Component": {
+    "module": "structure_component.py",
+    "class_name": "Structure_Component",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "subscript.py:Subscript": {
+    "module": "subscript.py",
+    "class_name": "Subscript",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "subscript_triplet.py:Subscript_Triplet": {
+    "module": "subscript_triplet.py",
+    "class_name": "Subscript_Triplet",
+    "children_types": [
+      "var:lhs_obj",
+      "var:rhs_obj",
+      "var:stride_obj"
+    ],
+    "children_patterns": [
+      "Tuple[var:lhs_obj, var:rhs_obj, var:stride_obj]"
+    ],
+    "items_types": [
+      "var:lhs_obj",
+      "var:rhs_obj",
+      "var:stride_obj"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "suffix.py:Suffix": {
+    "module": "suffix.py",
+    "class_name": "Suffix",
+    "children_types": [
+      "None",
+      "Proc_Language_Binding_Spec",
+      "Result_Name"
+    ],
+    "children_patterns": [
+      "Tuple[Result_Name, None]",
+      "Tuple[Result_Name, Proc_Language_Binding_Spec]"
+    ],
+    "items_types": [
+      "None",
+      "Proc_Language_Binding_Spec",
+      "Result_Name"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "target_entity_decl.py:Target_Entity_Decl": {
+    "module": "target_entity_decl.py",
+    "class_name": "Target_Entity_Decl",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "type_attr_spec.py:Type_Attr_Spec": {
+    "module": "type_attr_spec.py",
+    "class_name": "Type_Attr_Spec",
+    "children_types": [
+      "None",
+      "Parent_Type_Name",
+      "str"
+    ],
+    "children_patterns": [
+      "Tuple[str, None]",
+      "Tuple[str, Parent_Type_Name]",
+      "Tuple[str, str]"
+    ],
+    "items_types": [
+      "None",
+      "Parent_Type_Name",
+      "str"
+    ],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "type_spec.py:Type_Spec": {
+    "module": "type_spec.py",
+    "class_name": "Type_Spec",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "upper_bound.py:Upper_Bound": {
+    "module": "upper_bound.py",
+    "class_name": "Upper_Bound",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "upper_bound_expr.py:Upper_Bound_Expr": {
+    "module": "upper_bound_expr.py",
+    "class_name": "Upper_Bound_Expr",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "use_defined_operator.py:Use_Defined_Operator": {
+    "module": "use_defined_operator.py",
+    "class_name": "Use_Defined_Operator",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "v.py:V": {
+    "module": "v.py",
+    "class_name": "V",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "variable.py:Variable": {
+    "module": "variable.py",
+    "class_name": "Variable",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "variable_name.py:Variable_Name": {
+    "module": "variable_name.py",
+    "class_name": "Variable_Name",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "vector_subscript.py:Vector_Subscript": {
+    "module": "vector_subscript.py",
+    "class_name": "Vector_Subscript",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "w.py:W": {
+    "module": "w.py",
+    "class_name": "W",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "where_assignment_stmt.py:Where_Assignment_Stmt": {
+    "module": "where_assignment_stmt.py",
+    "class_name": "Where_Assignment_Stmt",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  },
+  "where_body_construct.py:Where_Body_Construct": {
+    "module": "where_body_construct.py",
+    "class_name": "Where_Body_Construct",
+    "children_types": [],
+    "children_patterns": [],
+    "items_types": [],
+    "content_types": [],
+    "unknown_types": []
+  }
+}
