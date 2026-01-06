@@ -40,3 +40,7 @@ class Default_Char_Expr(Base):  # pylint: disable=invalid-name
         if isinstance(result, excluded):
             return None
         return result
+
+
+class Scalar_Default_Char_Expr(Base):
+    subclass_names = ["Default_Char_Expr"]

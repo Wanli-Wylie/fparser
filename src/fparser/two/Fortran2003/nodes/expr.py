@@ -19,3 +19,7 @@ class Expr(BinaryOpBase):  # R722
             string,
             exclude_op_pattern=pattern.non_defined_binary_op,
         )
+
+
+class Scalar_Expr(Base):
+    subclass_names = ["Expr"]

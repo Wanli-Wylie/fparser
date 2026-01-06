@@ -33,3 +33,15 @@ class Type_Attr_Spec(Base):  # R431
         if self.items[1] is None:
             return "%s" % (self.items[0])
         return "%s(%s)" % (self.items)
+
+
+class Type_Attr_Spec_List(SequenceBase):
+    subclass_names = ["Type_Attr_Spec"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Type_Attr_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)

@@ -28,3 +28,15 @@ class Forall_Triplet_Spec(Base):  # R755
         if self.items[3] is None:
             return "%s = %s : %s" % (self.items[:3])
         return "%s = %s : %s : %s" % (self.items)
+
+
+class Forall_Triplet_Spec_List(SequenceBase):
+    subclass_names = ["Forall_Triplet_Spec"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Forall_Triplet_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)

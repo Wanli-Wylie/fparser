@@ -12,3 +12,15 @@ class Named_Constant_Def(KeywordValueBase):  # R539
     @staticmethod
     def match(string):
         return KeywordValueBase.match(Named_Constant, Initialization_Expr, string)
+
+
+class Named_Constant_Def_List(SequenceBase):
+    subclass_names = ["Named_Constant_Def"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Named_Constant_Def, string)
+
+    def __iter__(self):
+        return iter(self.items)

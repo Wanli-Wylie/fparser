@@ -12,3 +12,15 @@ class Type_Param_Spec(KeywordValueBase):  # R456
     @staticmethod
     def match(string):
         return KeywordValueBase.match(Keyword, Type_Param_Value, string)
+
+
+class Type_Param_Spec_List(SequenceBase):
+    subclass_names = ["Type_Param_Spec"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Type_Param_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)

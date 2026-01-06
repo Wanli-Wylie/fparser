@@ -25,3 +25,15 @@ class Binding_Attr(STRINGBase):  # pylint: disable=invalid-name
         return STRINGBase.match(
             ["PASS", "NOPASS", "NON_OVERRIDABLE", "DEFERRED"], string
         )
+
+
+class Binding_Attr_List(SequenceBase):
+    subclass_names = ["Binding_Attr"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Binding_Attr, string)
+
+    def __iter__(self):
+        return iter(self.items)

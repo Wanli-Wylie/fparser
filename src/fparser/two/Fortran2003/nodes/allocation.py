@@ -15,3 +15,15 @@ class Allocation(CallBase):  # R628
         return CallBase.match(
             Allocate_Object, Allocate_Shape_Spec_List, string, require_rhs=True
         )
+
+
+class Allocation_List(SequenceBase):
+    subclass_names = ["Allocation"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Allocation, string)
+
+    def __iter__(self):
+        return iter(self.items)

@@ -19,3 +19,15 @@ class Enumerator(BinaryOpBase):  # R463
             "=",
             Scalar_Int_Initialization_Expr(rhs.lstrip()),
         )
+
+
+class Enumerator_List(SequenceBase):
+    subclass_names = ["Enumerator"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Enumerator, string)
+
+    def __iter__(self):
+        return iter(self.items)

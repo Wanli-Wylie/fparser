@@ -24,3 +24,15 @@ class Alloc_Opt(KeywordValueBase):  # R624
             if obj is not None:
                 return obj
         return None
+
+
+class Alloc_Opt_List(SequenceBase):
+    subclass_names = ["Alloc_Opt"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Alloc_Opt, string)
+
+    def __iter__(self):
+        return iter(self.items)

@@ -23,3 +23,15 @@ class Data_Stmt_Value(Base):  # R530
 
     def tostr(self):
         return "%s * %s" % self.items
+
+
+class Data_Stmt_Value_List(SequenceBase):
+    subclass_names = ["Data_Stmt_Value"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Data_Stmt_Value, string)
+
+    def __iter__(self):
+        return iter(self.items)

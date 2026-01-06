@@ -7,3 +7,7 @@ class Constant(Base):  # R305
     """
 
     subclass_names = ["Literal_Constant", "Named_Constant"]
+
+
+class Scalar_Constant(Base):
+    subclass_names = ["Constant"]

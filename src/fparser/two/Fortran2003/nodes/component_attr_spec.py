@@ -30,3 +30,15 @@ class Component_Attr_Spec(STRINGBase):  # R441
 
         """
         return STRINGBase.match(cls.attributes, string)
+
+
+class Component_Attr_Spec_List(SequenceBase):
+    subclass_names = ["Component_Attr_Spec"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Component_Attr_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)

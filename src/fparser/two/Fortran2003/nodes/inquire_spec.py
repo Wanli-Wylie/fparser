@@ -113,3 +113,15 @@ class Inquire_Spec(KeywordValueBase):  # R930
             if obj is not None:
                 return obj
         return None
+
+
+class Inquire_Spec_List(SequenceBase):
+    subclass_names = ["Inquire_Spec"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Inquire_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)

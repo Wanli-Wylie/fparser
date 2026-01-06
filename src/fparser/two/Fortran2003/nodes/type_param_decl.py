@@ -19,3 +19,15 @@ class Type_Param_Decl(BinaryOpBase):  # R436
         if not lhs or not rhs:
             return
         return Type_Param_Name(lhs), "=", Scalar_Int_Initialization_Expr(rhs)
+
+
+class Type_Param_Decl_List(SequenceBase):
+    subclass_names = ["Type_Param_Decl"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Type_Param_Decl, string)
+
+    def __iter__(self):
+        return iter(self.items)

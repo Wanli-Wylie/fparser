@@ -37,3 +37,7 @@ class Numeric_Expr(Base):  # pylint: disable=invalid-name
         if isinstance(result, excluded):
             return None
         return result
+
+
+class Scalar_Numeric_Expr(Base):
+    subclass_names = ["Numeric_Expr"]

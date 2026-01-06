@@ -69,3 +69,15 @@ class Rename(Base):  # R1111
             f"{self.children[0]}({self.children[1]}) => "
             f"{self.children[0]}({self.children[2]})"
         )
+
+
+class Rename_List(SequenceBase):
+    subclass_names = ["Rename"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Rename, string)
+
+    def __iter__(self):
+        return iter(self.items)

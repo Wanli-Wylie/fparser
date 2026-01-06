@@ -105,3 +105,15 @@ class Connect_Spec(KeywordValueBase):
             if obj is not None:
                 return obj
         return None
+
+
+class Connect_Spec_List(SequenceBase):
+    subclass_names = ["Connect_Spec"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Connect_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)

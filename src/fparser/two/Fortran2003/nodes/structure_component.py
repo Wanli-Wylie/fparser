@@ -7,3 +7,7 @@ class Structure_Component(Base):  # R614
     """
 
     subclass_names = ["Data_Ref"]
+
+
+class Scalar_Structure_Component(Base):
+    subclass_names = ["Structure_Component"]

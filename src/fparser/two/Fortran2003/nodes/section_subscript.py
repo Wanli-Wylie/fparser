@@ -9,3 +9,15 @@ class Section_Subscript(Base):  # R619
     """
 
     subclass_names = ["Subscript_Triplet", "Vector_Subscript", "Subscript"]
+
+
+class Section_Subscript_List(SequenceBase):
+    subclass_names = ["Section_Subscript"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Section_Subscript, string)
+
+    def __iter__(self):
+        return iter(self.items)

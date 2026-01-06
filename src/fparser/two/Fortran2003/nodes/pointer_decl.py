@@ -15,3 +15,15 @@ class Pointer_Decl(CallBase):  # R541
         return CallBase.match(
             Object_Name, Deferred_Shape_Spec_List, string, require_rhs=True
         )
+
+
+class Pointer_Decl_List(SequenceBase):
+    subclass_names = ["Pointer_Decl"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Pointer_Decl, string)
+
+    def __iter__(self):
+        return iter(self.items)

@@ -74,3 +74,15 @@ class Entity_Decl(Base):  # R504
         :rtype: :py:class:`Name`
         """
         return self.items[0]
+
+
+class Entity_Decl_List(SequenceBase):
+    subclass_names = ["Entity_Decl"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Entity_Decl, string)
+
+    def __iter__(self):
+        return iter(self.items)

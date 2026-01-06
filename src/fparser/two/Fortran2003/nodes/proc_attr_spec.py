@@ -48,3 +48,15 @@ class Proc_Attr_Spec(Base):  # R1213
         if self.items[1] is None:
             return "%s" % (self.items[0])
         return "%s(%s)" % (self.items)
+
+
+class Proc_Attr_Spec_List(SequenceBase):
+    subclass_names = ["Proc_Attr_Spec"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Proc_Attr_Spec, string)
+
+    def __iter__(self):
+        return iter(self.items)

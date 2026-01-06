@@ -25,3 +25,15 @@ class Equivalence_Set(Base):  # R555
 
     def tostr(self):
         return "(%s, %s)" % tuple(self.items)
+
+
+class Equivalence_Set_List(SequenceBase):
+    subclass_names = ["Equivalence_Set"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Equivalence_Set, string)
+
+    def __iter__(self):
+        return iter(self.items)

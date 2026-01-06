@@ -71,3 +71,15 @@ class Cray_Pointer_Decl(Base):  # pylint: disable=invalid-name
                 "declaration but it is empty"
             )
         return "({0}, {1})".format(self.items[0], self.items[1])
+
+
+class Cray_Pointer_Decl_List(SequenceBase):
+    subclass_names = ["Cray_Pointer_Decl"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Cray_Pointer_Decl, string)
+
+    def __iter__(self):
+        return iter(self.items)

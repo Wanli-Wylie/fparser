@@ -18,3 +18,15 @@ class Bounds_Remapping(SeparatorBase):  # R738
             require_lhs=True,
             require_rhs=True,
         )
+
+
+class Bounds_Remapping_List(SequenceBase):
+    subclass_names = ["Bounds_Remapping"]
+    use_names = []
+
+    @staticmethod
+    def match(string):
+        return SequenceBase.match(r",", Bounds_Remapping, string)
+
+    def __iter__(self):
+        return iter(self.items)
