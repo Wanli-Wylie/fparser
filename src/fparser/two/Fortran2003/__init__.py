@@ -127,65 +127,6 @@ from fparser.two.utils import (
 
 
 
-def match_comment_or_include(reader):
-    """Creates a comment, directive, or include object from the current line.
-
-    :param reader: the fortran file reader containing the line
-                   of code that we are trying to match
-    :type reader: :py:class:`fparser.common.readfortran.FortranFileReader`
-                   or
-                   :py:class:`fparser.common.readfortran.FortranStringReader`
-
-    :return: a comment, directive, or include object if found, otherwise
-             `None`.
-    :rtype: :py:class:`fparser.two.Fortran2003.Comment` or
-            :py:class:`fparser.two.Fortran2003.Include_Stmt`
-            or :py:class:`fparser.two.Fortran2003.Directive`
-
-    """
-    obj = None
-    # Whether or not to specialise Directives is a run-time option.
-    if reader.process_directives:
-        obj = Directive(reader)
-    obj = Comment(reader) if not obj else obj
-    obj = Include_Stmt(reader) if not obj else obj
-    return obj
-
-
-def add_comments_includes_directives(content, reader):
-    """Creates comment, include, and/or cpp directive objects and adds them to
-    the content list. Comment, include, and/or directive objects are added
-    until a line that is not a comment, include, or directive is found.
-
-    :param content: a `list` of matched objects. Any matched comments, \
-                    includes, or directives in this routine are added to \
-                    this list.
-    :type content: :obj:`list`
-    :param reader: the fortran file reader containing the line(s) \
-                   of code that we are trying to match
-    :type reader: :py:class:`fparser.common.readfortran.FortranFileReader` \
-                  or \
-                  :py:class:`fparser.common.readfortran.FortranStringReader`
-
-    """
-    from fparser.two.C99Preprocessor import match_cpp_directive
-
-    obj = match_comment_or_include(reader)
-    obj = match_cpp_directive(reader) if not obj else obj
-    while obj:
-        content.append(obj)
-        obj = match_comment_or_include(reader)
-        obj = match_cpp_directive(reader) if not obj else obj
-
-
-
-
-
-
-
-
-
-
 
 
 

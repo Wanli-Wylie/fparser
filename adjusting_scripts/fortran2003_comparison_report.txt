@@ -1,0 +1,167 @@
+================================================================================
+Fortran2003 模块对比报告
+================================================================================
+
+旧版本: /home/wanli/fparser/src/fparser/two/Fortran2003.py.bak
+新版本: /home/wanli/fparser/src/fparser/two/Fortran2003
+
+
+================================================================================
+类对比结果
+================================================================================
+
+旧版本类数量: 423
+新版本类数量: 549
+新增类: 126
+删除类: 0
+修改类: 0
+未变化类: 423
+
+新增类列表:
+  + Ac_Value_List
+  + Access_Id_List
+  + Actual_Arg_Spec_List
+  + Alloc_Opt_List
+  + Allocate_Object_List
+  + Allocate_Shape_Spec_List
+  + Allocation_List
+  + Arg_Name
+  + Array_Name
+  + Associate_Construct_Name
+  + Associate_Name
+  + Association_List
+  + Assumed_Shape_Spec_List
+  + Attr_Spec_List
+  + Bind_Entity_List
+  + Binding_Attr_List
+  + Binding_Name
+  + Binding_Name_List
+  + Block_Data_Name
+  + Bounds_Remapping_List
+  + Bounds_Spec_List
+  + Case_Construct_Name
+  + Case_Value_Range_List
+  + Close_Spec_List
+  + Common_Block_Name
+  + Common_Block_Object_List
+  + Component_Attr_Spec_List
+  + Component_Decl_List
+  + Component_Name
+  + Component_Spec_List
+  + Connect_Spec_List
+  + Cray_Pointee_Name
+  + Cray_Pointer_Decl_List
+  + Cray_Pointer_Name
+  + Data_I_Do_Object_List
+  + Data_Pointer_Component_Name
+  + Data_Stmt_Object_List
+  + Data_Stmt_Value_List
+  + Dealloc_Opt_List
+  + Deferred_Shape_Spec_List
+  + Do_Construct_Name
+  + Dummy_Arg_List
+  + Dummy_Arg_Name_List
+  + Entity_Decl_List
+  + Entity_Name
+  + Entity_Name_List
+  + Entry_Name
+  + Enumerator_List
+  + Equivalence_Object_List
+  + Equivalence_Set_List
+  + Explicit_Shape_Spec_List
+  + External_Name_List
+  + Final_Subroutine_Name_List
+  + Forall_Construct_Name
+  + Forall_Triplet_Spec_List
+  + Function_Name
+  + Generic_Name
+  + If_Construct_Name
+  + Implicit_Spec_List
+  + Import_Name_List
+  + Index_Name
+  + Input_Item_List
+  + Inquire_Spec_List
+  + Intrinsic_Procedure_Name_List
+  + Io_Implied_Do_Object_List
+  + Label_List
+  + Letter_Spec_List
+  + Local_Name
+  + Module_Name
+  + Named_Constant_Def_List
+  + Namelist_Group_Name
+  + Namelist_Group_Object_List
+  + Object_Name_Deferred_Shape_Spec_List_Item_List
+  + Object_Name_List
+  + Only_List
+  + Output_Item_List
+  + Parent_Type_Name
+  + Part_Name
+  + Pointer_Decl_List
+  + Pointer_Object_List
+  + Position_Spec_List
+  + Proc_Attr_Spec_List
+  + Proc_Component_Attr_Spec_List
+  + Proc_Decl_List
+  + Proc_Entity_Name
+  + Procedure_Component_Name
+  + Procedure_Entity_Name
+  + Procedure_Name
+  + Procedure_Name_List
+  + Program_Name
+  + Rename_List
+  + Result_Name
+  + Saved_Entity_List
+  + Scalar_Char_Constant
+  + Scalar_Char_Expr
+  + Scalar_Constant
+  + Scalar_Constant_Subobject
+  + Scalar_Default_Char_Expr
+  + Scalar_Default_Char_Variable
+  + Scalar_Default_Logical_Variable
+  + Scalar_Expr
+  + Scalar_Int_Constant
+  + Scalar_Int_Constant_Subobject
+  + Scalar_Int_Expr
+  + Scalar_Int_Initialization_Expr
+  + Scalar_Int_Literal_Constant
+  + Scalar_Int_Variable
+  + Scalar_Logical_Expr
+  + Scalar_Logical_Initialization_Expr
+  + Scalar_Mask_Expr
+  + Scalar_Numeric_Expr
+  + Scalar_Structure_Component
+  + Scalar_Variable_Name
+  + Section_Subscript_List
+  + Select_Construct_Name
+  + Subroutine_Name
+  + Target_Entity_Decl_List
+  + Type_Attr_Spec_List
+  + Type_Param_Decl_List
+  + Type_Param_Name
+  + Type_Param_Name_List
+  + Type_Param_Spec_List
+  + Use_Name
+  + V_List
+  + Wait_Spec_List
+  + Where_Construct_Name
+
+
+================================================================================
+函数对比结果
+================================================================================
+
+旧版本函数数量: 4
+新版本函数数量: 4
+新增函数: 0
+删除函数: 0
+
+
+================================================================================
+导入对比结果
+================================================================================
+
+旧版本导入数量: 5
+新版本导入数量: 278
+新增导入: 273
+删除导入: 0
+
